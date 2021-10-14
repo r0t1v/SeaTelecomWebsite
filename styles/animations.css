@@ -1,0 +1,50 @@
+/* Animação menu*/
+#menuitem {
+  display: block;
+  position: relative;
+  padding: 0.2em 0;
+}
+#menuitem::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: #4834d4;
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+#menuitem:hover::after,
+#menuitem:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
+#menuitem::after {
+  opacity 1;
+  transform: scale(0);
+  transform-origin: center;
+}
+#menuitem:hover::after,
+#menuitem:focus::after{
+  transform: scale(1);
+}
+/* Animação menu*/
+.menu {
+    padding:4px 0;
+    animation:slide-down 0.7s;
+    opacity:0.9;    
+}                  
+.menu .fa-gg {                  
+    transform: rotate(360deg);      
+}
+@keyframes slide-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    } 
+    100% {
+        opacity: 0.9;
+        transform: translateY(0);
+    } 
+}
