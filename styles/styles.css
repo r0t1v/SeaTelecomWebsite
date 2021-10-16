@@ -19,6 +19,7 @@
 	font-size: 22px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	text-decoration: none;
 }
 #separator{
 	background-repeat: repeat-x;
@@ -96,6 +97,16 @@
 #planotop span{
 	font-size: 16px;
 }
+#planotopgold{
+	background-image: linear-gradient(to top, #f39c12, #f9ca24);
+	color: white;
+	font-size: 28px;
+	border-top-right-radius: 2rem;
+	border-top-left-radius: 2rem;
+}
+#planotopgold span{
+	font-size: 16px;
+}
 #planobody{
 	padding: 0px;
 	font-size: 18px;
@@ -117,6 +128,19 @@
 	color: white;
 }
 #planobot strong{
+	color: white;
+	font-size: 64px;
+}
+#planobotgold{
+	padding: 0px;
+	background-image: linear-gradient(to bottom, #f39c12, #f9ca24);
+	border-bottom-right-radius: 2rem;
+	border-bottom-left-radius: 2rem;
+}
+#planobotgold li{
+	color: white;
+}
+#planobotgold strong{
 	color: white;
 	font-size: 64px;
 }
@@ -152,7 +176,7 @@
 .solucoes{
 	width: 100%;
 	font-family: Dosis;
-	height: 700px;
+	height: 680px;
 	font-size: 22px;
 	color: #4834d4;
 }
@@ -161,9 +185,58 @@
 	font-size: 62px;
 	font-weight: bold;
 	background-color: #1B1464;
+	box-shadow: 0px 10px #130f40;
 	color: white;
 	border-bottom-left-radius: 3rem;
 	border-bottom-right-radius: 3rem;
+}
+.solucao-cliente{
+	width: 100%;
+	font-family: Dosis;
+	height: 650px;
+	font-size: 22px;
+}
+.solucao-cliente h1{
+	width: 80%;
+	height: 90px;
+	font-size: 62px;
+	font-weight: bold;
+	background-color: #4834d4;
+	box-shadow: 0px 10px #686de0;
+	color: white;
+	border-radius: 3rem;
+}
+.solucao-empresa{
+	width: 100%;
+	font-family: Dosis;
+	height: 650px;
+	font-size: 22px;
+}
+.solucao-empresa h1{
+	width: 60%;
+	height: 90px;
+	font-size: 62px;
+	font-weight: bold;
+	background-color: #4834d4;
+	box-shadow: 0px 10px #686de0;
+	color: white;
+	border-radius: 3rem;
+}
+.solucao-provedor{
+	width: 100%;
+	font-family: Dosis;
+	height: 650px;
+	font-size: 22px;
+}
+.solucao-provedor h1{
+	width: 60%;
+	height: 90px;
+	font-size: 62px;
+	font-weight: bold;
+	background-color: #4834d4;
+	box-shadow: 0px 10px #686de0;
+	color: white;
+	border-radius: 3rem;
 }
 #cards{
 	border-radius: 3rem;
@@ -189,25 +262,32 @@
 .novidades{
 	width: 100%;
 	font-family: Dosis;
-	height: 808px;
+	height: 620px;
 }
 .novidades h1{
 	color: #341f97;
 	font-size: 64px;
-	font-weight: bold;
+	background-color: #bdc3c7;
+	box-shadow: 0px 8px #95a5a6;
+	border-radius: 2rem;
+	width: 50%;
+	margin: 40px;
+}
+.novidades h2{
+	font-size: 38px;
+	border-radius: 2rem;
+	width: 50%;
+	margin: 20px;
 }
 .rodape{
 	width: 100%;
-	height: 300px;
+	height: 420px;
 	background-color: #1B1464;
 	color: white;
 	font-family: Dosis;
 }
 .rodape .container{
 	padding-top: 30px;
-}
-.rodape .container .row{
-	padding: 10px;
 }
 .rodape .container .row .col li{
 	padding-bottom: 10px;
@@ -216,5 +296,6 @@
 	font-size: 28px;
 }
 #final{
+	width: 70%;
 	bottom: 0px;
 }
