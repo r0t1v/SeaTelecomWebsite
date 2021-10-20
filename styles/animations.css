@@ -75,3 +75,15 @@
   transform: translate3d(0, 0, 0);
 }
 /* Animação menu*/
+/* Botão pra ir Top*/
+.back-to-top {
+  border-radius: 65px;
+  bottom: 50px;
+  cursor: pointer;
+  height: 40px;
+  position: fixed;
+  left: 15px;
+  width: 40px;
+  font-size: 38px;
+}
+/* Botão pra ir Top*/

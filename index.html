@@ -15,10 +15,10 @@
 	</head>
 	<body>
 	<!-- Header -->
-		<div class="navinit" align="center">
+		<div class="navinit" id="listmenu" align="center">
 				<div class="container">
 				  <div class="row">
-				    <div class="col"><a href="#planocontainer" style="text-decoration: none; color: white">
+				    <div class="col"><a href="#planos" style="text-decoration: none; color: white">
 				    <i class="bi bi-house-fill"></i> Para sua residência</a>
 				    </div>
 				    <div class="col"><a href="#empresa" style="text-decoration: none; color: white">
@@ -40,7 +40,7 @@
 			    <div class="col-sm-9" style="margin-top: 30px">
 			      <div class="row">
 			        <div class="col-8 col-sm-3">
-			          <a href="#contrate" style="text-decoration: none; color: #130f40"><p id="menuitem">Seja Nosso Cliente</p></a>
+			          <a href="pages/contato.html" style="text-decoration: none; color: #130f40"><p id="menuitem">Seja Nosso Cliente</p></a>
 			        </div>
 			        <div class="col-8 col-sm-3">
 			          <a href="#solucoes" id="menuitem" style="width: 50%; text-decoration: none; color: #130f40">Soluções</a>
@@ -68,7 +68,7 @@
 		<!-- contrate -->
 		<div class="assine" align="center">
 			<canvas id="canvas"></canvas>
-			<a href="#contrate"><img id="foguete"class="img-fluid" src="src/rocket.gif"></a>
+			<a href="pages/contato.html"><img id="foguete"class="img-fluid" src="src/rocket.gif"></a>
 			<script src="libs/starback.js"></script>
 				<script>
 				  const canvas = document.getElementById('canvas')
@@ -86,7 +86,7 @@
 		<!-- infos -->
 		<div class="infomain" align="center">
 			<h3>A SEA Telecom possui soluções avançadas em internet 100% Fibra Óptica para a sua necessidade, para pessoas que buscam velocidade, economia, qualidade e suporte.</h3>
-			<h1>Planos <strong>para você</strong></h1>
+			<h1 id="planos">Planos <strong>para você</strong></h1>
 			<div class="container">
 			  <div class="row">
 			    <div class="col">
@@ -195,7 +195,9 @@
 			    </div>
 			  </div>
 			</div>
+			<h2>Nossos planos são totalmente<strong> sem fidelidade!</strong></h2>
 		</div>
+		<div class="back-to-top"><a href="#listmenu" style="text-decoration: none; color: #130f40"><i class="bi bi-arrow-up-circle"></i></a></div>
 		<!-- infos -->
 		<!-- Cobertura -->
 		<div class="cobertura" align="center">
@@ -233,8 +235,43 @@
 			  <i class="bi bi-map-fill"></i> Em expansão...
 			</div>
 			</ul>
+			<h1 style="font-size: 52px">NOSSA INFRAESTRUTURA</h1>
+			<div class="infra">
+				 <div class="container">
+					  <div class="row">
+					    <div class="col">
+					      <div class="card-body">
+						    <p><i class="bi bi-hdd-network-fill"></i></p>
+						    <h2 style="font-weight: bold">+24</h2>
+						    <p style="font-size: 20px; font-weight: bold">Terminais de Fibra Ativos</p>
+						  </div>
+						</div>
+					    <div class="col">
+					      <div class="card-body">
+						    <p><i class="bi bi-people-fill"></i></p>
+						    <h2 style="font-weight: bold">+50</h2>
+						    <p style="font-size: 20px; font-weight: bold">Parceiros & Apoiadores</p>
+						  </div>
+					    </div>
+					    <div class="col">
+					      <div class="card-body">
+						    <p><i class="bi bi-emoji-heart-eyes"></i></p>
+						    <h2 style="font-weight: bold">+90%</h2>
+						    <p style="font-size: 20px; font-weight: bold">Clientes Satisfeitos</p>
+						  </div>
+					    </div>
+					    <div class="col">
+					      <div class="card-body">
+						    <p><i class="bi bi-bar-chart-fill"></i></p>
+						    <h2 style="font-weight: bold">+40.000</h2>
+						    <p style="font-size: 20px; font-weight: bold">Conexões Ativas</p>
+						  </div>
+					    </div>
+					  </div>
+				</div>
+			</div>
 		</div>
-			<div id="separator"></div>
+		<div id="separator"></div>
 		<!-- Cobertura -->
 		<!-- solucoes main -->
 		<div class="solucoes" id="solucoes" align="center">
@@ -305,16 +342,136 @@
 		<!-- solucoes main -->
 		<!-- solucoes cliente -->
 		<div class="solucao-cliente" align="center">
-			<h1>Soluções para sua conexão residencial</h1>
+			<h1>Soluções da Área do cliente</h1>
+			<div class="cliente">
+				 <div class="container">
+					  <div class="row">
+					    <div class="col">
+					      <div class="card-body">
+						    <p style="font-size: 64px"><i class="bi bi-file-earmark-fill"></i></p>
+						    <h2 style="font-weight: bold">2ª Via de boleto</h2>
+						  </div>
+						</div>
+					    <div class="col">
+					      <div class="card-body">
+						    <p style="font-size: 64px"><i class="bi bi-search"></i></p>
+						    <h2 style="font-weight: bold">Nº de Protocolos</h2>
+						  </div>
+					    </div>
+					    <div class="col">
+					      <div class="card-body">
+						    <p style="font-size: 64px"><i class="bi bi-telephone-inbound-fill"></i></p>
+						    <h2 style="font-weight: bold">Solicitar contato</h2>
+						  </div>
+					  </div>
+					</div>
+					 <div class="row">
+					  	<div class="col">
+					      <div class="card-body">
+						    <p style="font-size: 64px"><i class="bi bi-unlock-fill"></i></p>
+						    <h2 style="font-weight: bold">Desbloquear Conexão</h2>
+						  </div>
+					  	</div>
+					  	<div class="col">
+					      <div class="card-body">
+						    <p style="font-size: 64px"><i class="bi bi-arrow-up-circle-fill"></i></p>
+						    <h2 style="font-weight: bold">Retirar Redução</h2>
+						  </div>
+					  	</div>
+					  	<div class="col">
+					      <div class="card-body">
+						    <p style="font-size: 64px"><i class="bi bi-credit-card-fill"></i></p>
+						    <h2 style="font-weight: bold">Registrar Cartão</h2>
+						  </div>
+					  	</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<!-- solucoes empresa -->
-		<div class="solucao-empresa" align="center">
+		<div class="solucao-empresa" id="empresa" align="center">
 			<h1>Soluções para sua empresa</h1>
+			<div class="empresa">
+				 <div class="container">
+					  <div class="row">
+					    <div class="col">
+					      <div class="card-body">
+						    <p style="font-size: 64px"><i class="bi bi-layer-forward"></i></p>
+						    <h2 style="font-weight: bold">Link Dedicado</h2>
+						  </div>
+						</div>
+					    <div class="col">
+					      <div class="card-body">
+						    <p style="font-size: 64px"><i class="bi bi-cone-striped"></i></p>
+						    <h2 style="font-weight: bold">Intervenção Imediata</h2>
+						  </div>
+					    </div>
+					    <div class="col">
+					      <div class="card-body">
+						    <p style="font-size: 64px"><i class="bi bi-broadcast-pin"></i></p>
+						    <h2 style="font-weight: bold">Instalação de Hotspot</h2>
+						  </div>
+					  </div>
+					</div>
+					 <div class="row" style="width: 70%">
+					  	<div class="col">
+					      <div class="card-body">
+						    <p style="font-size: 64px"><i class="bi bi-truck"></i></p>
+						    <h2 style="font-weight: bold">Transportes de Dados</h2>
+						  </div>
+					  	</div>
+					  	<div class="col">
+					      <div class="card-body">
+						    <p style="font-size: 64px"><i class="bi bi-terminal-fill"></i></p>
+						    <h2 style="font-weight: bold">Monitoramento 24hrs</h2>
+						  </div>
+					  	</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<!-- solucoes empresa -->
 		<!-- solucoes provedor -->
-		<div class="solucao-provedor" align="center">
+		<div class="solucao-provedor" id="provedor" align="center">
 			<h1>Soluções para seu provedor</h1>
+			<div class="provedor">
+				 <div class="container">
+					  <div class="row">
+					    <div class="col">
+					      <div class="card-body">
+						    <p style="font-size: 64px"><i class="bi bi-hand-thumbs-up-fill"></i></p>
+						    <h2 style="font-weight: bold">Terceirização</h2>
+						  </div>
+						</div>
+					    <div class="col">
+					      <div class="card-body">
+						    <p style="font-size: 64px"><i class="bi bi-arrow-left-right"></i></p>
+						    <h2 style="font-weight: bold">Swap de fibra</h2>
+						  </div>
+					    </div>
+					    <div class="col">
+					      <div class="card-body">
+						    <p style="font-size: 64px"><i class="bi bi-intersect"></i></p>
+						    <h2 style="font-weight: bold">PTT's</h2>
+						  </div>
+					  </div>
+					</div>
+					 <div class="row" style="width: 70%">
+					  	<div class="col">
+					      <div class="card-body">
+						    <p style="font-size: 64px"><i class="bi bi-arrows-angle-contract"></i></p>
+						    <h2 style="font-weight: bold">Fusões</h2>
+						  </div>
+					  	</div>
+					  	<div class="col">
+					      <div class="card-body">
+						    <p style="font-size: 64px"><i class="bi bi-hdd-network-fill"></i></p>
+						    <h2 style="font-weight: bold">Rotas Backup</h2>
+						  </div>
+					  	</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<!-- solucoes provedor -->
 		<!-- novidades -->
@@ -398,7 +555,7 @@
 				    </div>
 				  </div>
 				</div>
-				<h2><a href="" style="text-decoration: none; color: #130f40"><i class="bi bi-plus-lg"></i> Novidades</a></h2>
+				<h2><a href="pages/novidades.html" style="text-decoration: none; color: #130f40"><i class="bi bi-plus-lg"></i> Novidades</a></h2>
 		</div>
 		<!-- novidades -->
 		<div id="separator"></div>
@@ -411,17 +568,17 @@
 			    <div class="col">
 			      <h5 style="font-weight: bold; color: #718093">Cliente</h5>
 			      <ul style="list-style-type: none">
-			      	<li><a href="#planocontainer" id="rodapeitem" style="width: 87%; text-decoration: none; color: white">Conheça nossos planos</a></li>
-			      	<li><a href="#novidades" id="rodapeitem" style="width: 39%;text-decoration: none; color: white">Novidades</a></li>
-			      	<li><a href="#" id="rodapeitem" style="width: 61%;text-decoration: none; color: white">Solicitar contato</a></li>
+			      	<li><a href="#planos" id="rodapeitem" style="width: 87%; text-decoration: none; color: white">Conheça nossos planos</a></li>
+			      	<li><a href="pages/novidades.html" id="rodapeitem" style="width: 39%;text-decoration: none; color: white">Novidades</a></li>
+			      	<li><a href="pages/contato.html" id="rodapeitem" style="width: 61%;text-decoration: none; color: white">Solicitar contato</a></li>
 			      	<li><a href="http://mk.seatelecom.com.br:8080/sac/login/?sys=SAC" id="rodapeitem" style="width: 56%;text-decoration: none; color: white">Área do cliente</a></li>
 			      </ul>
 			    </div>
 			    <div class="col">
 			      <h5 style="font-weight: bold; color: #718093">Sea Telecom</h5>
 			      <ul style="list-style-type: none">
-			      	<li><a href="#" id="rodapeitem" style="text-decoration: none; color: white">Conexão para sua empresa</a></li>
-			      	<li><a href="#" id="rodapeitem" style="text-decoration: none; color: white">Conexão para seu provedor</a></li>
+			      	<li><a href="#empresa" id="rodapeitem" style="text-decoration: none; color: white">Conexão para sua empresa</a></li>
+			      	<li><a href="#provedor" id="rodapeitem" style="text-decoration: none; color: white">Conexão para seu provedor</a></li>
 			      	<li><a href="https://jobs.solides.com/seatelecom" target="blank" id="rodapeitem" style="width: 67%;text-decoration: none; color: white">Trabalhe Conosco</a></li>
 			      	<li><a href="https://conteccontabil.app.questorpublico.com.br/entrar" id="rodapeitem" style="width: 75%;text-decoration: none; color: white">Área do colaborador</a></li>
 			      </ul>
@@ -447,7 +604,7 @@
 			  	<center>
 			  	<a href="mailto:sac@seatelecom.com.br" style="font-size: 22px;text-decoration: none; color: white"><i class="bi bi-envelope-open-fill"></i> <strong>sac@seatelecom.com.br</strong></a>
 				<hr id="final">
-				<p id="final" align="center"><strong>Copyright © SEA Telecom 2017 / 2021 - Todos os direitos reservados.</strong><br>SEA Telecom LTDA & SEA Engenharia LTDA - 25.450.139/0001-68<br><i class="bi bi-pin-map-fill"></i> Rua Coronel Leal, 969-A, Centro, Castanhal - PA, CEP 68743-070<br>Desenvolvido por <a href="https:github.com/r0t1v" style="text-decoration: none; color: #0652DD">Vitor Gabriel</a></p>
+				<p id="final" align="center"><strong>Copyright © SEA Telecom 2017 / 2021 - Todos os direitos reservados.</strong><br>SEA Telecom LTDA - 25.450.139/0001-68<br><i class="bi bi-pin-map-fill"></i> Rua Coronel Leal, 969-A, Centro, Castanhal - PA, CEP 68743-070<br>Desenvolvido por <a href="https:github.com/r0t1v" style="text-decoration: none; color: #0652DD">Vitor Gabriel</a></p>
 				</center>
 			</div>
 			</div>

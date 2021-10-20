@@ -6,6 +6,9 @@
 	margin: 0px;
  	padding: 0px;
 }
+html {
+  scroll-behavior: smooth;
+}
 .navinit{
 	background-image: linear-gradient(to right, #1B1464 , #0652DD);
 	width: 100%;
@@ -78,6 +81,12 @@
 	font-size: 82px;
 	color: #130F40;
 }
+.infomain h2{
+	margin-top: 20px;
+	width: 75%;
+	color: #130F40;
+	font-size: 52px;
+}
 .infomain .container{
 	width: 100%;
 	margin-top: 35px;
@@ -85,7 +94,6 @@
 #planocontainer{
 	border-radius: 2rem;
 	padding: 0px;
-	/* box-shadow: -10px 10px 10px #3742fa;*/
 }
 #planotop{
 	background-color: #1B1464;
@@ -149,10 +157,10 @@
 	font-family: Dosis;
 	background-image: linear-gradient(to bottom, #686de0 , #4834d4);
 	padding: 15px;
-	height: 1000px;
+	height: 1400px;
 	border-top-right-radius: 7.25rem;
 	border-top-left-radius: 7.25rem;
-	margin-top: 75px;
+	margin-top: 35px;
 }
 .cobertura h1{
 	width: 50%;
@@ -173,6 +181,16 @@
 .cobertura  li{
 	padding: 10px;
 }
+/* Cobertura cards*/
+.infra .container .row .col .card-body{
+	background: #00a8ff;
+	border-radius: 3rem;
+	box-shadow: 0px 10px #0097e6;
+}
+.infra .container .row .col .card-body i{ 
+	font-size: 64px;
+}
+/* Cobertura cards*/
 .solucoes{
 	width: 100%;
 	font-family: Dosis;
@@ -193,11 +211,12 @@
 .solucao-cliente{
 	width: 100%;
 	font-family: Dosis;
-	height: 650px;
+	height: 620px;
 	font-size: 22px;
 }
 .solucao-cliente h1{
-	width: 80%;
+	margin-top: 20px;
+	width: 60%;
 	height: 90px;
 	font-size: 62px;
 	font-weight: bold;
@@ -206,10 +225,17 @@
 	color: white;
 	border-radius: 3rem;
 }
+.solucao-cliente .cliente .container .row .col .card-body{
+	margin-top: 40px;
+	background: #00d2d3;
+	border-radius: 3rem;
+	box-shadow: 0px 10px #01a3a4;
+	color: white;
+}
 .solucao-empresa{
 	width: 100%;
 	font-family: Dosis;
-	height: 650px;
+	height: 620px;
 	font-size: 22px;
 }
 .solucao-empresa h1{
@@ -222,11 +248,25 @@
 	color: white;
 	border-radius: 3rem;
 }
+.solucao-empresa .empresa .container .row .col .card-body{
+	margin-top: 40px;
+	background: #1dd1a1;
+	border-radius: 3rem;
+	box-shadow: 0px 10px #10ac84;
+	color: white;
+}
 .solucao-provedor{
 	width: 100%;
 	font-family: Dosis;
-	height: 650px;
+	height: 620px;
 	font-size: 22px;
+}
+.solucao-provedor .provedor .container .row .col .card-body{
+	margin-top: 40px;
+	background: #9980FA;
+	border-radius: 3rem;
+	box-shadow: 0px 10px #5758BB;
+	color: white;
 }
 .solucao-provedor h1{
 	width: 60%;
@@ -298,4 +338,18 @@
 #final{
 	width: 70%;
 	bottom: 0px;
+}
+.mainnovidade{
+	width: 100%;
+	font-family: Dosis;
+}
+.mainnovidade h1{
+	width: 50%;
+	color: #130f40;
+	font-weight: bold;
+	font-size: 64px;
+	margin: 10px;
+}
+.mainnovidade table{
+	width: 80%;
 }
