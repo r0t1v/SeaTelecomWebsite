@@ -85,5 +85,12 @@
   left: 15px;
   width: 40px;
   font-size: 38px;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all .5s ease
 }
 /* Botão pra ir Top*/
+.showBtn {
+  opacity: 1;
+  transform: translateY(0)
+}
