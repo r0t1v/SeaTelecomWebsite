@@ -40,7 +40,7 @@
 			    <div class="col-sm-9" style="margin-top: 30px">
 			      <div class="row">
 			        <div class="col-8 col-sm-3">
-			          <a href="contato.html" style="text-decoration: none; color: #130f40"><p id="menuitem">Seja Nosso Cliente</p></a>
+			          <a href="#solcont" style="text-decoration: none; color: #130f40"><p id="menuitem">Seja Nosso Cliente</p></a>
 			        </div>
 			        <div class="col-8 col-sm-3">
 			          <a href="../index.html#solucoes" id="menuitem" style="width: 50%; text-decoration: none; color: #130f40">Soluções</a>
@@ -59,15 +59,88 @@
 	<!-- Menu/NavBar -->
 	<!-- hr -->
 		<div id="separator"></div>
-		ola
+		<div class="cadastro" align="center">
+			<h1>PRÉ-CADASTRO <strong>SEA TELECOM</strong></h1>
+			<h2>Preencha corretamente os seus dados para verificarmos a viabilidade para o seu endereço. Em breve um consultor Sea Telecom irá entrar em contato com você!</h2>
+			<div class="container">
+			  <div class="row">
+			    <div class="col">
+			      <img src="../src/nick.png" id="cardcadastro">
+			    </div>
+			    <div class="col" id="solcont" align="left">
+			    	<div class="formulario" id="cardcadastro">
+			    	<h3><strong>Tenha a melhor internet da região na sua casa!</strong></h3>
+			     	<div id="separator"></div>
+					<form method="POST" action="#">
+						<label>Nome</label>
+					 	<input class="form-control form-control-lg" type="text" placeholder="Digite seu nome completo" aria-label=".form-control-lg example">
+					 	<label>E-mail</label>
+					 	<input class="form-control form-control-lg" type="email" placeholder="Digite seu e-mail" aria-label=".form-control-lg example">
+					 	<div class="container">
+						  <div class="row">
+						    <div class="col">
+						      <label>Celular</label>
+					 	<input class="form-control form-control-lg" type="text" placeholder="(DDD) + Número" aria-label=".form-control-lg example">
+						    </div>
+						    <div class="col">
+						      <label>CEP</label>
+					 	<input class="form-control form-control-lg" type="text" placeholder="Digite seu código postal" aria-label=".form-control-lg example">
+						    </div>
+						  </div>
+						  <div class="row">
+						  	<div class="col">
+						      <label>Bairro</label>
+					 	<input class="form-control form-control-lg" type="text" placeholder="Digite seu bairro" aria-label=".form-control-lg example">
+						    </div>
+						    <div class="col">
+						      <label>Cidade</label>
+					 	<input class="form-control form-control-lg" type="text" placeholder="Digite a sua cidade" aria-label=".form-control-lg example">
+						    </div>
+						  </div>
+						  <div class="row">
+						  	<div class="col">
+						      <label>Logradouro/Rua</label>
+					 	<input class="form-control form-control-lg" type="text" placeholder="Digite seu logradouro" aria-label=".form-control-lg example">
+						    </div>
+						    <div class="col">
+						      <label>Número</label>
+					 	<input class="form-control form-control-lg" type="text" placeholder="Digite o número do local" aria-label=".form-control-lg example">
+						    </div>
+						  </div>
+						</div>
+						<label>Complemento</label>
+					 	<input class="form-control form-control-lg" type="text" placeholder="Digite um complemento ou referência da sua residência" aria-label=".form-control-lg example">
+					 	<label>Você está no local nesse momento?</label>
+					 	<div class="form-check">
+						  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+						  <label class="form-check-label" for="flexRadioDefault1" style="font-size: 18px">Sim
+						  </label>
+						</div>
+						<div class="form-check">
+						  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+						  <label class="form-check-label" for="flexRadioDefault2" style="font-size: 18px">Não
+						  </label>
+						</div>
+						<p><small>*Informação importante para mapearmos a sua localização exata.<br>
+						**Selecionando Sim, será exibido uma janela solicitando permissão, por favor aceite.</small></p><center>
+						<button type="button" class="btn btn-info">Solicitar Contato!</button></center>
+				     </form>
+			     	</div>
+			    </div>
+			  </div>
+		</div>
+		</div>
 		<div id="separator"></div>
 		<footer class="rodape">
 			<div class="container">
 			  <div class="row">
 			    <div class="col" style="padding-top: 40px">
+			    	<div class="itemrodape" id="itemrodape" align="center">
 			      <a href="../index.html" id="rodapeitem" style="width: 75%; padding-bottom: 10px; text-decoration: none; color: white"><img src="../src/footericon.png"></a>
+			    	</div>
 			    </div>
 			    <div class="col">
+			    	<div class="itemrodape" id="itemrodape">
 			      <h5 style="font-weight: bold; color: #718093">Cliente</h5>
 			      <ul style="list-style-type: none">
 			      	<li><a href="../index.html#planos" id="rodapeitem" style="width: 87%; text-decoration: none; color: white">Conheça nossos planos</a></li>
@@ -76,7 +149,9 @@
 			      	<li><a href="http://mk.seatelecom.com.br:8080/sac/login/?sys=SAC" id="rodapeitem" style="width: 56%;text-decoration: none; color: white">Área do cliente</a></li>
 			      </ul>
 			    </div>
+			    </div>
 			    <div class="col">
+			    <div class="itemrodape" id="itemrodape">
 			      <h5 style="font-weight: bold; color: #718093">Sea Telecom</h5>
 			      <ul style="list-style-type: none">
 			      	<li><a href="../index.html#empresa" id="rodapeitem" style="text-decoration: none; color: white">Conexão para sua empresa</a></li>
@@ -85,7 +160,9 @@
 			      	<li><a href="https://conteccontabil.app.questorpublico.com.br/entrar" id="rodapeitem" style="width: 75%;text-decoration: none; color: white">Área do colaborador</a></li>
 			      </ul>
 			    </div>
+			    </div>
 			    <div class="col">
+			    <div class="itemrodape" id="itemrodape">
 			    	<h5 style="font-weight: bold; color: #718093">Contato</h5>
 			     	<ul style="list-style-type: none">
 			     	<li><a href="https://www.facebook.com/seatelecombrasil/" target="blank" style="text-decoration: none; color: white"><i class="bi bi-messenger"></i> @seatelecombrasil</a></li>
@@ -93,13 +170,16 @@
 			     	<li><a href="https://t.me/seatelecom_bot" target="blank" style="text-decoration: none; color: white"><i class="bi bi-telegram"></i> @seatelecom_bot</a></li>
 			      	</ul>
 			    </div>
+			    </div>
 			    <div class="col">
+			    	<div class="itemrodape" id="itemrodape">
 			    	<h5 style="font-weight: bold; color: #718093">Redes Sociais</h5>
 			     	<ul style="list-style-type: none">
 			     	<li><a href="https://www.facebook.com/seatelecombrasil/" target="blank" style="text-decoration: none; color: white"><i class="bi bi-facebook"></i> @seatelecombrasil</a></li>
 			     	<li><a href="https://www.instagram.com/seatelecom/" target="blank" style="text-decoration: none; color: white"><i class="bi bi-instagram"></i> @seatelecom</a></li>
 			     	<li><a href="https://www.linkedin.com/company/sea-telecom/" target="blank" style="text-decoration: none; color: white"><i class="bi bi-linkedin"></i> @seatelecom</a></li>
 			      	</ul>
+			    </div>
 			    </div>
 			  </div>
 			  <div class="row">

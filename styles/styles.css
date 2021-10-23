@@ -9,6 +9,1225 @@
 html {
   scroll-behavior: smooth;
 }
+/* CELULAR PEQUENOS */
+@media screen and (max-width: 580px) {
+.navinit{
+	background-image: linear-gradient(to right, #1B1464 , #0652DD);
+	width: 100%;
+	height: 12px;
+	font-family: Montserrat;
+	font-size: 8px;
+}
+.menu{
+	width: 300px;
+	height: 280px;
+	font-family: Changa;
+	font-size: 18px;
+	margin-top: 10px;
+	text-decoration: none;
+	margin-left: 21%;
+}
+#separator{
+	background-repeat: repeat-x;
+	background-image: url("../src/navbar/hr.png");
+	width: 100%;
+	height: 5px;
+}
+.groundbar{
+	/*margin-top: 125px;*/
+	background-color: #130F40;
+	height: 80px;
+	padding: 5px;
+	color: white;
+}
+.groundbar span{
+	font-family: Dosis;
+	font-size: 22px;
+}
+.assine{
+	width: 100%;
+	height: 300px;
+}
+#canvas{
+	width: 100%;
+	height: 300px;
+	-moz-transform: scale(-1, 1);
+	-webkit-transform: scale(-1, 1);
+	-o-transform: scale(-1, 1);
+	-ms-transform: scale(-1, 1);
+	transform: scale(-1, 1);
+}
+#foguete{
+	width: 250px;
+	position: absolute;
+	top: 400px;
+	left: 18%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.infomain{
+	width: 100%;
+	font-family: Dosis;
+	margin: 20px 0px 20px 0px;
+}
+.infomain h3{
+	width: 100%;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	border-radius: 3.5rem;
+	background: #4834d4;
+	padding: 10px 30px;
+}
+.infomain h1{
+	width: 100%;
+	font-size: 48px;
+	color: #130F40;
+}
+.infomain h2{
+	margin-top: 20px;
+	width: 100%;
+	color: #130F40;
+	font-size: 36px;
+}
+.infomain .container{
+	width: 100%;
+	margin-top: 35px;
+}
+#planocontainer{
+	border-radius: 2rem;
+	padding: 0px;
+	width: 240px;
+	margin-top: 20px;
+}
+#planotop{
+	background-color: #1B1464;
+	color: white;
+	font-size: 24px;
+	border-top-right-radius: 2rem;
+	border-top-left-radius: 2rem;
+}
+#planotop span{
+	font-size: 16px;
+}
+#planotopgold{
+	background-image: linear-gradient(to top, #f39c12, #f9ca24);
+	color: white;
+	font-size: 24px;
+	border-top-right-radius: 2rem;
+	border-top-left-radius: 2rem;
+}
+#planotopgold span{
+	font-size: 16px;
+}
+#planobody{
+	padding: 0px;
+	font-size: 18px;
+}
+#planobody i{
+	color: #00a8ff;
+}
+#planobody li{
+	padding-bottom: 5px;
+	color: #1B1464;
+}
+#planobot{
+	padding: 0px;
+	background-color: #1B1464;
+	border-bottom-right-radius: 2rem;
+	border-bottom-left-radius: 2rem;
+}
+#planobot li{
+	color: white;
+}
+#planobot strong{
+	color: white;
+	font-size: 64px;
+}
+#planobotgold{
+	padding: 0px;
+	background-image: linear-gradient(to bottom, #f39c12, #f9ca24);
+	border-bottom-right-radius: 2rem;
+	border-bottom-left-radius: 2rem;
+}
+#planobotgold li{
+	color: white;
+}
+#planobotgold strong{
+	color: white;
+	font-size: 64px;
+}
+.cobertura{
+	width: 100%;
+	font-family: Dosis;
+	background-image: linear-gradient(to bottom, #686de0 , #4834d4);
+	padding: 15px;
+	height: 1950px;
+	border-top-right-radius: 7.25rem;
+	border-top-left-radius: 7.25rem;
+	margin-top: 35px;
+}
+.cobertura h1{
+	width: 90%;
+	margin-top: 25px;
+	border-radius: 1.25rem;
+	background: #f9ca24;
+	padding: 10px;
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+}
+.cobertura .container{
+	margin-top: 30px;
+	font-size: 16px;
+	color: white;
+	padding: 10px;
+}
+.cobertura  li{
+	padding: 10px;
+}
+/* Cobertura cards*/
+.infra .container .row .col .card-body{
+	background: #00a8ff;
+	border-radius: 3rem;
+	box-shadow: 0px 10px #0097e6;
+	width: 200px;
+	margin-top: 40px;
+}
+.infra .container .row .col .card-body i{ 
+	font-size: 32px;
+}
+/* Cobertura cards*/
+.solucoes{
+	width: 100%;
+	font-family: Dosis;
+	height: 1870px;
+	font-size: 22px;
+	color: #4834d4;
+}
+#cardsolution{
+	width: 300px;
+}
+.solucoes h1{
+	height: 90px;
+	font-size: 62px;
+	font-weight: bold;
+	background-color: #1B1464;
+	box-shadow: 0px 10px #130f40;
+	color: white;
+	border-bottom-left-radius: 3rem;
+	border-bottom-right-radius: 3rem;
+}
+.solucao-cliente{
+	width: 100%;
+	font-family: Dosis;
+	height: 1500px;
+	font-size: 22px;
+}
+.solucao-cliente h1{
+	margin-top: 20px;
+	width: 100%;
+	height: 100px;
+	font-size: 38px;
+	font-weight: bold;
+	background-color: #4834d4;
+	box-shadow: 0px 10px #686de0;
+	color: white;
+	border-radius: 3rem;
+}
+.solucao-cliente .cliente .container .row .col .card-body{
+	margin-top: 40px;
+	background: #00d2d3;
+	border-radius: 3rem;
+	box-shadow: 0px 10px #01a3a4;
+	color: white;
+}
+.solucao-empresa{
+	width: 100%;
+	font-family: Dosis;
+	height: 1270px;
+	font-size: 22px;
+}
+.solucao-empresa h1{
+	width: 100%;
+	height: 100px;
+	font-size: 38px;
+	font-weight: bold;
+	background-color: #4834d4;
+	box-shadow: 0px 10px #686de0;
+	color: white;
+	border-radius: 3rem;
+}
+.solucao-empresa .empresa .container .row .col .card-body{
+	margin-top: 40px;
+	background: #1dd1a1;
+	border-radius: 3rem;
+	box-shadow: 0px 10px #10ac84;
+	color: white;
+}
+.solucao-provedor{
+	width: 100%;
+	font-family: Dosis;
+	height: 1230px;
+	font-size: 22px;
+}
+.solucao-provedor .provedor .container .row .col .card-body{
+	margin-top: 40px;
+	background: #9980FA;
+	border-radius: 3rem;
+	box-shadow: 0px 10px #5758BB;
+	color: white;
+}
+.solucao-provedor h1{
+	width: 100%;
+	height: 100px;
+	font-size: 38px;
+	font-weight: bold;
+	background-color: #4834d4;
+	box-shadow: 0px 10px #686de0;
+	color: white;
+	border-radius: 3rem;
+}
+#cards{
+	width: 300px;
+	border-radius: 3rem;
+	box-shadow: 0px 5px 10px #4834d4;
+}
+#cardtop{
+	border-top-right-radius: 3rem;
+	border-top-left-radius: 3rem;
+	background-color: #f9ca24;
+	color: white;
+	font-size: 36px;
+}
+#cards h5{
+	color: #130f40;
+}
+#cards p{
+	font-size: 18px;
+	color: #4834d4;
+}
+.solucoes .container .row .col{
+	margin-top: 20px;
+}
+.novidades{
+	width: 100%;
+	font-family: Dosis;
+	height: 2150px;
+}
+.novidades h1{
+	color: #341f97;
+	font-size: 38px;
+	background-color: #bdc3c7;
+	box-shadow: 0px 8px #95a5a6;
+	border-radius: 2rem;
+	width: 90%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.novidades h2{
+	font-size: 38px;
+	border-radius: 2rem;
+	width: 50%;
+	margin: 20px;
+}
+#cardnoticia{
+	width: 300px;
+}
+.rodape{
+	width: 100%;
+	height: 1300px;
+	background-color: #1B1464;
+	color: white;
+	font-family: Dosis;
+}
+.rodape .container{
+	padding-top: 30px;
+}
+.rodape .container .row .col li{
+	padding-bottom: 10px;
+}
+.rodape .container .row .col i{
+	font-size: 28px;
+}
+#itemrodape{
+	width: 200px;
+}
+#final{
+	width: 90%;
+	bottom: 0px;
+	font-family: Montserrat;
+}
+.mainnovidade{
+	width: 100%;
+	font-family: Dosis;
+}
+.mainnovidade h1{
+	width: 100%;
+	color: #130f40;
+	font-weight: bold;
+	font-size: 64px;
+	margin: 10px;
+}
+.mainnovidade table{
+	width: 70%;
+	padding: 10px;
+}
+.cadastro{
+	width: 100%;
+	height: 2130px;
+	background-image: linear-gradient(to bottom, #4834d4, #130f40);
+	font-family: Dosis;
+}
+.cadastro h1{
+	width: 90%;
+	font-size: 48px;
+	color: white;
+	padding-top: 25px;
+}
+.cadastro h2{
+	width: 80%;
+	padding: 15px;
+	background-color: #130f40;
+	border-radius: 2rem;
+	color: white;
+}
+#cardcadastro{
+	width: 350px;
+}
+.cadastro .container{
+	margin-top: 40px;
+}
+.cadastro .container .row .col .formulario{
+	padding: 20px;
+	background-color: white;
+	border-radius: 2rem;
+	color: #130f40;
+}
+.cadastro .container .row .col .formulario label{
+	font-weight: bold;
+	padding: 5px;
+	font-size: 22px;
+}
+.cadastro .container .row .col .formulario button{
+	width: 60%;
+	font-weight: bold;
+	font-size: 28px;
+}
+.cadastro .container .row .col .formulario .container{
+	margin-top: 5px;
+	padding: 0px;
+}
+}
+/* CELULAR  */
+/* CELULAR NORMAIS */
+@media screen and (min-width: 580px) and (max-width: 770px) {
+.navinit{
+	background-image: linear-gradient(to right, #1B1464 , #0652DD);
+	width: 100%;
+	height: 20px;
+	font-family: Montserrat;
+	font-size: 14px;
+}
+.menu{
+	width: 100%;
+	height: 100px;
+	font-family: Changa;
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+#separator{
+	background-repeat: repeat-x;
+	background-image: url("../src/navbar/hr.png");
+	width: 100%;
+	height: 5px;
+}
+.groundbar{
+	/*margin-top: 125px;*/
+	background-color: #130F40;
+	height: 50px;
+	padding: 5px;
+	color: white;
+}
+.groundbar span{
+	font-family: Dosis;
+	font-size: 22px;
+}
+.assine{
+	width: 100%;
+	height: 300px;
+}
+#canvas{
+	width: 100%;
+	height: 300px;
+	-moz-transform: scale(-1, 1);
+	-webkit-transform: scale(-1, 1);
+	-o-transform: scale(-1, 1);
+	-ms-transform: scale(-1, 1);
+	transform: scale(-1, 1);
+}
+#foguete{
+	position: absolute;
+	top: 215px;
+	left: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.infomain{
+	width: 100%;
+	font-family: Dosis;
+	margin: 20px 0px 20px 0px;
+}
+.infomain h3{
+	width: 100%;
+	font-size: 28px;
+	color: white;
+	font-weight: bold;
+	border-radius: 3.5rem;
+	background: #4834d4;
+	padding: 10px 30px;
+}
+.infomain h1{
+	width: 100%;
+	font-size: 82px;
+	color: #130F40;
+}
+.infomain h2{
+	margin-top: 20px;
+	width: 75%;
+	color: #130F40;
+	font-size: 52px;
+}
+.infomain .container{
+	width: 100%;
+	margin-top: 35px;
+}
+#planocontainer{
+	border-radius: 2rem;
+	padding: 0px;
+	width: 240px;
+	margin-top: 20px;
+}
+#planotop{
+	background-color: #1B1464;
+	color: white;
+	font-size: 24px;
+	border-top-right-radius: 2rem;
+	border-top-left-radius: 2rem;
+}
+#planotop span{
+	font-size: 16px;
+}
+#planotopgold{
+	background-image: linear-gradient(to top, #f39c12, #f9ca24);
+	color: white;
+	font-size: 24px;
+	border-top-right-radius: 2rem;
+	border-top-left-radius: 2rem;
+}
+#planotopgold span{
+	font-size: 16px;
+}
+#planobody{
+	padding: 0px;
+	font-size: 18px;
+}
+#planobody i{
+	color: #00a8ff;
+}
+#planobody li{
+	padding-bottom: 5px;
+	color: #1B1464;
+}
+#planobot{
+	padding: 0px;
+	background-color: #1B1464;
+	border-bottom-right-radius: 2rem;
+	border-bottom-left-radius: 2rem;
+}
+#planobot li{
+	color: white;
+}
+#planobot strong{
+	color: white;
+	font-size: 64px;
+}
+#planobotgold{
+	padding: 0px;
+	background-image: linear-gradient(to bottom, #f39c12, #f9ca24);
+	border-bottom-right-radius: 2rem;
+	border-bottom-left-radius: 2rem;
+}
+#planobotgold li{
+	color: white;
+}
+#planobotgold strong{
+	color: white;
+	font-size: 64px;
+}
+.cobertura{
+	width: 100%;
+	font-family: Dosis;
+	background-image: linear-gradient(to bottom, #686de0 , #4834d4);
+	padding: 15px;
+	height: 1500px;
+	border-top-right-radius: 7.25rem;
+	border-top-left-radius: 7.25rem;
+	margin-top: 35px;
+}
+.cobertura h1{
+	width: 90%;
+	margin-top: 25px;
+	border-radius: 1.25rem;
+	background: #f9ca24;
+	padding: 10px;
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
+}
+.cobertura .container{
+	margin-top: 30px;
+	font-size: 18px;
+	color: white;
+	padding: 10px;
+}
+.cobertura  li{
+	padding: 10px;
+}
+/* Cobertura cards*/
+.infra .container .row .col .card-body{
+	background: #00a8ff;
+	border-radius: 3rem;
+	box-shadow: 0px 10px #0097e6;
+	width: 200px;
+	margin-top: 40px;
+}
+.infra .container .row .col .card-body i{ 
+	font-size: 32px;
+}
+/* Cobertura cards*/
+.solucoes{
+	width: 100%;
+	font-family: Dosis;
+	height: 1150px;
+	font-size: 22px;
+	color: #4834d4;
+}
+.solucoes h1{
+	height: 90px;
+	font-size: 62px;
+	font-weight: bold;
+	background-color: #1B1464;
+	box-shadow: 0px 10px #130f40;
+	color: white;
+	border-bottom-left-radius: 3rem;
+	border-bottom-right-radius: 3rem;
+}
+.solucao-cliente{
+	width: 100%;
+	font-family: Dosis;
+	height: 650px;
+	font-size: 22px;
+}
+.solucao-cliente h1{
+	margin-top: 20px;
+	width: 100%;
+	height: 70px;
+	font-size: 48px;
+	font-weight: bold;
+	background-color: #4834d4;
+	box-shadow: 0px 10px #686de0;
+	color: white;
+	border-radius: 3rem;
+}
+.solucao-cliente .cliente .container .row .col .card-body{
+	margin-top: 40px;
+	background: #00d2d3;
+	border-radius: 3rem;
+	box-shadow: 0px 10px #01a3a4;
+	color: white;
+}
+.solucao-empresa{
+	width: 100%;
+	font-family: Dosis;
+	height: 850px;
+	font-size: 22px;
+}
+.solucao-empresa h1{
+	width: 100%;
+	height: 70px;
+	font-size: 48px;
+	font-weight: bold;
+	background-color: #4834d4;
+	box-shadow: 0px 10px #686de0;
+	color: white;
+	border-radius: 3rem;
+}
+.solucao-empresa .empresa .container .row .col .card-body{
+	margin-top: 40px;
+	background: #1dd1a1;
+	border-radius: 3rem;
+	box-shadow: 0px 10px #10ac84;
+	color: white;
+}
+.solucao-provedor{
+	width: 100%;
+	font-family: Dosis;
+	height: 600px;
+	font-size: 22px;
+}
+.solucao-provedor .provedor .container .row .col .card-body{
+	margin-top: 40px;
+	background: #9980FA;
+	border-radius: 3rem;
+	box-shadow: 0px 10px #5758BB;
+	color: white;
+}
+.solucao-provedor h1{
+	width: 100%;
+	height: 70px;
+	font-size: 48px;
+	font-weight: bold;
+	background-color: #4834d4;
+	box-shadow: 0px 10px #686de0;
+	color: white;
+	border-radius: 3rem;
+}
+#cards{
+	border-radius: 3rem;
+	box-shadow: 0px 5px 10px #4834d4;
+}
+#cardtop{
+	border-top-right-radius: 3rem;
+	border-top-left-radius: 3rem;
+	background-color: #f9ca24;
+	color: white;
+	font-size: 36px;
+}
+#cards h5{
+	color: #130f40;
+}
+#cards p{
+	font-size: 18px;
+	color: #4834d4;
+}
+.solucoes .container .row .col{
+	margin-top: 20px;
+}
+.novidades{
+	width: 100%;
+	font-family: Dosis;
+	height: 2150px;
+}
+.novidades h1{
+	color: #341f97;
+	font-size: 64px;
+	background-color: #bdc3c7;
+	box-shadow: 0px 8px #95a5a6;
+	border-radius: 2rem;
+	width: 90%;
+	margin: 40px;
+}
+.novidades h2{
+	font-size: 38px;
+	border-radius: 2rem;
+	width: 50%;
+	margin: 20px;
+}
+#cardnoticia{
+	width: 300px;
+}
+.rodape{
+	width: 100%;
+	height: 930px;
+	background-color: #1B1464;
+	color: white;
+	font-family: Dosis;
+}
+.rodape .container{
+	padding-top: 30px;
+}
+.rodape .container .row .col li{
+	padding-bottom: 10px;
+}
+.rodape .container .row .col i{
+	font-size: 28px;
+}
+#itemrodape{
+	width: 200px;
+}
+#final{
+	width: 90%;
+	bottom: 0px;
+	font-family: Montserrat;
+}
+.mainnovidade{
+	width: 100%;
+	font-family: Dosis;
+}
+.mainnovidade h1{
+	width: 50%;
+	color: #130f40;
+	font-weight: bold;
+	font-size: 64px;
+	margin: 10px;
+}
+.mainnovidade table{
+	width: 70%;
+	padding: 10px;
+}
+.cadastro{
+	width: 100%;
+	height: 1220px;
+	background-image: linear-gradient(to bottom, #4834d4, #130f40);
+	font-family: Dosis;
+}
+.cadastro h1{
+	width: 80%;
+	color: white;
+	padding-top: 25px;
+}
+.cadastro h2{
+	width: 80%;
+	padding: 15px;
+	background-color: #130f40;
+	border-radius: 2rem;
+	color: white;
+}
+.cadastro .container{
+	margin-top: 40px;
+}
+.cadastro .container .row .col .formulario{
+	padding: 20px;
+	background-color: white;
+	border-radius: 2rem;
+	color: #130f40;
+}
+.cadastro .container .row .col .formulario label{
+	font-weight: bold;
+	padding: 5px;
+	font-size: 22px;
+}
+.cadastro .container .row .col .formulario button{
+	width: 60%;
+	font-weight: bold;
+	font-size: 28px;
+}
+.cadastro .container .row .col .formulario .container{
+	margin-top: 5px;
+	padding: 0px;
+}
+}
+/* CELULAR NORMAIS */
+/* TABLETS  */
+@media screen and (min-width: 770px) and (max-width: 950px) {
+.navinit{
+	background-image: linear-gradient(to right, #1B1464 , #0652DD);
+	width: 100%;
+	height: 20px;
+	font-family: Montserrat;
+	font-size: 14px;
+}
+.menu{
+	width: 100%;
+	height: 100px;
+	font-family: Changa;
+	font-size: 18px;
+	margin: 10px 0px 10px 0px;
+	text-decoration: none;
+}
+#separator{
+	background-repeat: repeat-x;
+	background-image: url("../src/navbar/hr.png");
+	width: 100%;
+	height: 5px;
+}
+.groundbar{
+	/*margin-top: 125px;*/
+	background-color: #130F40;
+	height: 50px;
+	padding: 5px;
+	color: white;
+}
+.groundbar span{
+	font-family: Dosis;
+	font-size: 28px;
+}
+.assine{
+	width: 100%;
+	height: 300px;
+}
+#canvas{
+	width: 100%;
+	height: 300px;
+	-moz-transform: scale(-1, 1);
+	-webkit-transform: scale(-1, 1);
+	-o-transform: scale(-1, 1);
+	-ms-transform: scale(-1, 1);
+	transform: scale(-1, 1);
+}
+#foguete{
+	position: absolute;
+	top: 215px;
+	left: 31%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.infomain{
+	width: 100%;
+	font-family: Dosis;
+	margin: 20px 0px 20px 0px;
+}
+.infomain h3{
+	width: 100%;
+	font-size: 26px;
+	color: white;
+	font-weight: bold;
+	border-radius: 3.5rem;
+	background: #4834d4;
+	padding: 10px 30px;
+}
+.infomain h1{
+	width: 75%;
+	font-size: 82px;
+	color: #130F40;
+}
+.infomain h2{
+	margin-top: 20px;
+	width: 75%;
+	color: #130F40;
+	font-size: 52px;
+}
+.infomain .container{
+	width: 100%;
+	margin-top: 35px;
+}
+#planocontainer{
+	border-radius: 2rem;
+	padding: 0px;
+	margin: 0px;
+	width: 260px;
+	margin-top: 20px;
+}
+#planotop{
+	background-color: #1B1464;
+	color: white;
+	font-size: 28px;
+	border-top-right-radius: 2rem;
+	border-top-left-radius: 2rem;
+}
+#planotop span{
+	font-size: 16px;
+}
+#planotopgold{
+	background-image: linear-gradient(to top, #f39c12, #f9ca24);
+	color: white;
+	font-size: 28px;
+	border-top-right-radius: 2rem;
+	border-top-left-radius: 2rem;
+}
+#planotopgold span{
+	font-size: 16px;
+}
+#planobody{
+	padding: 0px;
+	font-size: 16px;
+}
+#planobody i{
+	color: #00a8ff;
+}
+#planobody li{
+	padding-bottom: 5px;
+	color: #1B1464;
+}
+#planobot{
+	padding: 0px;
+	background-color: #1B1464;
+	border-bottom-right-radius: 2rem;
+	border-bottom-left-radius: 2rem;
+}
+#planobot li{
+	color: white;
+}
+#planobot strong{
+	color: white;
+	font-size: 64px;
+}
+#planobotgold{
+	padding: 0px;
+	background-image: linear-gradient(to bottom, #f39c12, #f9ca24);
+	border-bottom-right-radius: 2rem;
+	border-bottom-left-radius: 2rem;
+}
+#planobotgold li{
+	color: white;
+}
+#planobotgold strong{
+	color: white;
+	font-size: 64px;
+}
+.cobertura{
+	width: 100%;
+	font-family: Dosis;
+	background-image: linear-gradient(to bottom, #686de0 , #4834d4);
+	padding: 15px;
+	height: 1250px;
+	border-top-right-radius: 7.25rem;
+	border-top-left-radius: 7.25rem;
+	margin-top: 35px;
+}
+.cobertura h1{
+	width: 75%;
+	margin-top: 25px;
+	border-radius: 1.25rem;
+	background: #f9ca24;
+	padding: 10px;
+	color: white;
+	font-size: 42px;
+	font-weight: bold;
+}
+.cobertura .container{
+	margin-top: 30px;
+	font-size: 22px;
+	color: white;
+	padding: 10px;
+}
+.cobertura  li{
+	padding: 10px;
+}
+/* Cobertura cards*/
+.infra .container .row .col .card-body{
+	background: #00a8ff;
+	border-radius: 3rem;
+	box-shadow: 0px 10px #0097e6;
+}
+.infra .container .row .col .card-body i{ 
+	font-size: 64px;
+}
+/* Cobertura cards*/
+.solucoes{
+	width: 100%;
+	font-family: Dosis;
+	height: 850px;
+	font-size: 16px;
+	color: #4834d4;
+}
+.solucoes h1{
+	height: 90px;
+	font-size: 62px;
+	font-weight: bold;
+	background-color: #1B1464;
+	box-shadow: 0px 10px #130f40;
+	color: white;
+	border-bottom-left-radius: 3rem;
+	border-bottom-right-radius: 3rem;
+}
+.solucao-cliente{
+	width: 100%;
+	font-family: Dosis;
+	height: 680px;
+	font-size: 22px;
+}
+.solucao-cliente h1{
+	margin-top: 20px;
+	width: 90%;
+	height: 90px;
+	font-size: 62px;
+	font-weight: bold;
+	background-color: #4834d4;
+	box-shadow: 0px 10px #686de0;
+	color: white;
+	border-radius: 3rem;
+}
+.solucao-cliente .cliente .container .row .col .card-body{
+	margin-top: 40px;
+	background: #00d2d3;
+	border-radius: 3rem;
+	box-shadow: 0px 10px #01a3a4;
+	color: white;
+}
+.solucao-empresa{
+	width: 100%;
+	font-family: Dosis;
+	height: 680px;
+	font-size: 22px;
+}
+.solucao-empresa h1{
+	width: 90%;
+	height: 90px;
+	font-size: 62px;
+	font-weight: bold;
+	background-color: #4834d4;
+	box-shadow: 0px 10px #686de0;
+	color: white;
+	border-radius: 3rem;
+}
+.solucao-empresa .empresa .container .row .col .card-body{
+	margin-top: 40px;
+	background: #1dd1a1;
+	border-radius: 3rem;
+	box-shadow: 0px 10px #10ac84;
+	color: white;
+}
+.solucao-provedor{
+	width: 100%;
+	font-family: Dosis;
+	height: 600px;
+	font-size: 22px;
+}
+.solucao-provedor .provedor .container .row .col .card-body{
+	margin-top: 40px;
+	background: #9980FA;
+	border-radius: 3rem;
+	box-shadow: 0px 10px #5758BB;
+	color: white;
+}
+.solucao-provedor h1{
+	width: 90%;
+	height: 90px;
+	font-size: 62px;
+	font-weight: bold;
+	background-color: #4834d4;
+	box-shadow: 0px 10px #686de0;
+	color: white;
+	border-radius: 3rem;
+}
+#cards{
+	border-radius: 3rem;
+	box-shadow: 0px 5px 10px #4834d4;
+}
+#cardtop{
+	border-top-right-radius: 3rem;
+	border-top-left-radius: 3rem;
+	background-color: #f9ca24;
+	color: white;
+	font-size: 36px;
+}
+#cards h5{
+	color: #130f40;
+}
+#cards p{
+	font-size: 18px;
+	color: #4834d4;
+}
+.solucoes .container .row .col{
+	margin-top: 20px;
+}
+.novidades{
+	width: 100%;
+	font-family: Dosis;
+	height: 980px;
+}
+.novidades h1{
+	color: #341f97;
+	font-size: 64px;
+	background-color: #bdc3c7;
+	box-shadow: 0px 8px #95a5a6;
+	border-radius: 2rem;
+	width: 70%;
+	margin: 40px;
+}
+.novidades h2{
+	font-size: 38px;
+	border-radius: 2rem;
+	width: 50%;
+	margin: 20px;
+}
+#cardnoticia{
+	width: 500px;
+}
+.rodape{
+	width: 100%;
+	height: 700px;
+	background-color: #1B1464;
+	color: white;
+	font-family: Dosis;
+}
+.rodape .container{
+	padding-top: 30px;
+}
+.rodape .container .row .col li{
+	padding-bottom: 10px;
+}
+.rodape .container .row .col i{
+	font-size: 28px;
+}
+#itemrodape{
+	width: 200px;
+}
+#final{
+	width: 90%;
+	bottom: 0px;
+	font-family: Montserrat;
+}
+.mainnovidade{
+	width: 100%;
+	font-family: Dosis;
+}
+.mainnovidade h1{
+	width: 50%;
+	color: #130f40;
+	font-weight: bold;
+	font-size: 64px;
+	margin: 10px;
+}
+.mainnovidade table{
+	width: 70%;
+	padding: 10px;
+}
+.cadastro{
+	width: 100%;
+	height: 1220px;
+	background-image: linear-gradient(to bottom, #4834d4, #130f40);
+	font-family: Dosis;
+}
+.cadastro h1{
+	width: 80%;
+	color: white;
+	padding-top: 25px;
+}
+.cadastro h2{
+	width: 80%;
+	padding: 15px;
+	background-color: #130f40;
+	border-radius: 2rem;
+	color: white;
+}
+.cadastro .container{
+	margin-top: 40px;
+}
+.cadastro .container .row .col .formulario{
+	padding: 20px;
+	background-color: white;
+	border-radius: 2rem;
+	color: #130f40;
+}
+.cadastro .container .row .col .formulario label{
+	font-weight: bold;
+	padding: 5px;
+	font-size: 22px;
+}
+.cadastro .container .row .col .formulario button{
+	width: 60%;
+	font-weight: bold;
+	font-size: 28px;
+}
+.cadastro .container .row .col .formulario .container{
+	margin-top: 5px;
+	padding: 0px;
+}
+}
+/* TABLETS  */
+/* DESKTOP */
+@media screen and (min-width: 1000px) {
 .navinit{
 	background-image: linear-gradient(to right, #1B1464 , #0652DD);
 	width: 100%;
@@ -23,6 +1242,8 @@ html {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	text-decoration: none;
+	/*position: fixed;
+	background-color: white;*/
 }
 #separator{
 	background-repeat: repeat-x;
@@ -31,6 +1252,7 @@ html {
 	height: 5px;
 }
 .groundbar{
+	/*margin-top: 125px;*/
 	background-color: #130F40;
 	height: 50px;
 	padding: 5px;
@@ -338,6 +1560,7 @@ html {
 #final{
 	width: 70%;
 	bottom: 0px;
+	font-family: Montserrat;
 }
 .mainnovidade{
 	width: 100%;
@@ -351,5 +1574,49 @@ html {
 	margin: 10px;
 }
 .mainnovidade table{
-	width: 80%;
+	width: 70%;
+	padding: 10px;
 }
+.cadastro{
+	width: 100%;
+	height: 1220px;
+	background-image: linear-gradient(to bottom, #4834d4, #130f40);
+	font-family: Dosis;
+}
+.cadastro h1{
+	width: 80%;
+	color: white;
+	padding-top: 25px;
+}
+.cadastro h2{
+	width: 80%;
+	padding: 15px;
+	background-color: #130f40;
+	border-radius: 2rem;
+	color: white;
+}
+.cadastro .container{
+	margin-top: 40px;
+}
+.cadastro .container .row .col .formulario{
+	padding: 20px;
+	background-color: white;
+	border-radius: 2rem;
+	color: #130f40;
+}
+.cadastro .container .row .col .formulario label{
+	font-weight: bold;
+	padding: 5px;
+	font-size: 22px;
+}
+.cadastro .container .row .col .formulario button{
+	width: 60%;
+	font-weight: bold;
+	font-size: 28px;
+}
+.cadastro .container .row .col .formulario .container{
+	margin-top: 5px;
+	padding: 0px;
+}
+}
+/* DESKTOP  */
