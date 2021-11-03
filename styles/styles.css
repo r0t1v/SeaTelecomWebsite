@@ -25,7 +25,10 @@ html {
 	font-size: 18px;
 	margin-top: 10px;
 	text-decoration: none;
-	margin-left: 21%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
 }
 #separator{
 	background-repeat: repeat-x;
@@ -61,7 +64,11 @@ html {
 	width: 250px;
 	position: absolute;
 	top: 400px;
-	left: 18%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -99,7 +106,7 @@ html {
 #planocontainer{
 	border-radius: 2rem;
 	padding: 0px;
-	width: 240px;
+	width: 260px;
 	margin-top: 20px;
 }
 #planotop{
@@ -875,7 +882,11 @@ html {
 #foguete{
 	position: absolute;
 	top: 215px;
-	left: 31%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -1278,7 +1289,11 @@ html {
 #foguete{
 	position: absolute;
 	top: 215px;
-	left: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -1316,6 +1331,7 @@ html {
 #planocontainer{
 	border-radius: 2rem;
 	padding: 0px;
+	width: 260px;
 }
 #planotop{
 	background-color: #1B1464;
@@ -1419,6 +1435,9 @@ html {
 	height: 680px;
 	font-size: 22px;
 	color: #4834d4;
+}
+#cardsolution{
+	width: 350px;
 }
 .solucoes h1{
 	height: 90px;
