@@ -41,7 +41,7 @@
 			    <div class="col-sm-9" style="margin-top: 30px">
 			      <div class="row" align="center">
 			        <div class="col-8 col-sm-3">
-			          <a href="pages/contato.html" style="text-decoration: none; color: #130f40"><p id="menuitem">Seja Nosso Cliente</p></a>
+			          <a href="pages/contato.html" id="menuitem" style="text-decoration: none; color: #130f40">Seja Nosso Cliente</a>
 			        </div>
 			        <div class="col-8 col-sm-3">
 			          <a href="#solucoes" id="menuitem" style="width: 50%; text-decoration: none; color: #130f40">Soluções</a>
@@ -52,11 +52,52 @@
 			        <div class="col-8 col-sm-3">
 			          <a href="http://mk.seatelecom.com.br:8080/sac/login/?sys=SAC" id="menuitem" style="width: 80%;text-decoration: none; color: #130f40">Área do Cliente</a>
 			        </div>
-			    	
 			      </div>
 			    </div>
 			  </div>
 			</div>
+			<nav class="navbar navbar-light bg-light fixed-top">
+			  <div class="container-fluid">
+			    <a class="navbar-brand" href="index.html">
+			    <img src="src/navbar/logomain.png"></a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+			      <div class="offcanvas-header">
+			        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+			        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			      </div>
+			      <div class="offcanvas-body">
+			        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+			          <li class="nav-item">
+			            <a class="nav-link active" aria-current="page" href="#">Home</a>
+			          </li>
+			          <li class="nav-item">
+			            <a class="nav-link" href="#">Link</a>
+			          </li>
+			          <li class="nav-item dropdown">
+			            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			              Dropdown
+			            </a>
+			            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+			              <li><a class="dropdown-item" href="#">Action</a></li>
+			              <li><a class="dropdown-item" href="#">Another action</a></li>
+			              <li>
+			                <hr class="dropdown-divider">
+			              </li>
+			              <li><a class="dropdown-item" href="#">Something else here</a></li>
+			            </ul>
+			          </li>
+			        </ul>
+			        <form class="d-flex">
+			          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+			          <button class="btn btn-outline-success" type="submit">Search</button>
+			        </form>
+			      </div>
+			    </div>
+			  </div>
+			</nav>
 		</div>
 	<!-- Menu/NavBar -->
 	<!-- hr -->
@@ -89,9 +130,7 @@
 		<div class="infomain" align="center">
 			<h3>A SEA Telecom possui soluções avançadas em internet 100% Fibra Óptica para a sua necessidade, para pessoas que buscam velocidade, economia, qualidade e suporte.</h3>
 			<h1 id="planos">Planos <strong>para você</strong></h1>
-			<div class="container">
-			  <div class="row">
-			    <div class="col">
+			<div class="conteudoplanos">
 			    	<div class="card text-center" id="planocontainer">
 					  <div class="card-header" id="planotop"><i class="bi bi-reception-4"></i> Plano <strong>100 MEGA</strong> <span class="badge rounded-pill bg-secondary" style="box-shadow: 0px 2px white"><i class="bi bi-house-fill"></i> Básico</span> <span class="badge rounded-pill bg-danger" style="box-shadow: 0px 2px white"><i class="bi bi-wifi"></i> 2.4G</span></div>
 					  	 <div id="separator"></div>
@@ -115,9 +154,7 @@
 			    		<li>R$<strong>110</strong> / Mês</></li>
 			    		</ul>
 			  			</div>
-						</div>
-			    </div>
-			    <div class="col">
+			    	</div>
 			      <div class="card text-center" id="planocontainer">
 					  <div class="card-header" id="planotopgold"><i class="bi bi-reception-4"></i> Plano <strong>200 MEGA</strong> <span class="badge rounded-pill bg-warning" style="box-shadow: 0px 2px white"><i class="bi bi-star-fill"></i> Popular</span> <span class="badge rounded-pill bg-primary" style="box-shadow: 0px 2px white"><i class="bi bi-wifi"></i> 2.4G + 5G</span></div>
 					  <div id="separator"></div>
@@ -141,9 +178,7 @@
 			    		<li>R$<strong>130</strong> / Mês</li>
 			    		</ul>
 			  			</div>
-						</div>
 			    </div>
-			    <div class="col">
 			      <div class="card text-center" id="planocontainer">
 					  <div class="card-header" id="planotop"><i class="bi bi-reception-4"></i> Plano <strong>300 MEGA</strong> <span class="badge rounded-pill bg-success" style="box-shadow: 0px 2px white"><i class="bi bi-lightning-fill"></i> Veloz</span> <span class="badge rounded-pill bg-primary" style="box-shadow: 0px 2px white"><i class="bi bi-wifi"></i> 2.4G + 5G</span></div>
 					  <div id="separator"></div>
@@ -167,9 +202,7 @@
 			    		<li>R$<strong> 160</strong> / Mês</li>
 			    		</ul>
 			  			</div>
-						</div>
 			    </div>
-			     <div class="col">
 			      <div class="card text-center" id="planocontainer">
 					  <div class="card-header" id="planotop"><i class="bi bi-reception-4"></i> Plano <strong>500 MEGA</strong> <span class="badge rounded-pill bg-dark" style="box-shadow: 0px 2px white"><i class="bi bi-gem"></i> Máximo</span> <span class="badge rounded-pill bg-primary" style="box-shadow: 0px 2px white"><i class="bi bi-wifi"></i> 2.4G + 5G</span></div>
 					  <div id="separator"></div>
@@ -193,12 +226,9 @@
 			    		<li>R$<strong> 210</strong> / Mês</li>
 			    		</ul>
 			  			</div>
-						</div>
-			    </div>
-			  </div>
 			</div>
-			<h2>Nossos planos são totalmente<strong> sem fidelidade!</strong></h2>
 		</div>
+		<h2>Nossos planos são totalmente<strong> sem fidelidade!</strong></h2>
 		<!-- infos -->
 		<!-- Cobertura -->
 		<div class="cobertura" align="center">
@@ -218,6 +248,8 @@
 					<li><i class="bi bi-geo-alt-fill"></i> Igarapé-Açú</li>
 					<li><i class="bi bi-geo-alt-fill"></i> Curuçá</li>
 					<li><i class="bi bi-geo-alt-fill"></i> Marapanim</li>
+					<li><i class="bi bi-geo-alt-fill"></i> Colares</li>
+					<li><i class="bi bi-geo-alt-fill"></i> Benevides</li>
 			    </div>
 			    <div class="col" align="left">
 			     	<li><i class="bi bi-geo-alt-fill"></i> Tracuateua</li>
@@ -231,113 +263,87 @@
 				 	<li><i class="bi bi-geo-alt-fill"></i> Capitão Poço</li>
 				 	<li><i class="bi bi-geo-alt-fill"></i> Ourém</li>
 				 	<li><i class="bi bi-geo-alt-fill"></i> Taciateua</li>
+				 	<li><i class="bi bi-geo-alt-fill"></i> Vigia</li>
+			    	<li><i class="bi bi-geo-alt-fill"></i> Santo Antônio do Tauá</li>
 			    </div>
 			  </div>
-			  <i class="bi bi-map-fill"></i> Em expansão...
+			  <h3 style="color: white"><i class="bi bi-map-fill"></i> Em expansão...</h3>
 			</div>
 			</ul>
 			<h1>NOSSA INFRAESTRUTURA</h1>
 			<div class="infra">
-				 <div class="container">
-					  <div class="row">
-					    <div class="col">
+				 <div class="conteudoinfra">
 					      <div class="card-body">
 						    <p><i class="bi bi-hdd-network-fill"></i></p>
 						    <h2 style="font-weight: bold">+24</h2>
 						    <p style="font-size: 20px; font-weight: bold">Terminais de Fibra Ativos</p>
 						  </div>
-						</div>
-					    <div class="col">
 					      <div class="card-body">
 						    <p><i class="bi bi-people-fill"></i></p>
 						    <h2 style="font-weight: bold">+50</h2>
 						    <p style="font-size: 20px; font-weight: bold">Parceiros & Apoiadores</p>
 						  </div>
-					    </div>
-					    <div class="col">
 					      <div class="card-body">
 						    <p><i class="bi bi-emoji-heart-eyes"></i></p>
 						    <h2 style="font-weight: bold">+90%</h2>
 						    <p style="font-size: 20px; font-weight: bold">Clientes Satisfeitos</p>
 						  </div>
-					    </div>
-					    <div class="col">
 					      <div class="card-body">
 						    <p><i class="bi bi-bar-chart-fill"></i></p>
 						    <h2 style="font-weight: bold">+40.000</h2>
 						    <p style="font-size: 20px; font-weight: bold">Conexões Ativas</p>
 						  </div>
-					    </div>
-					  </div>
 				</div>
-			</div>
 		</div>
+	</div>
 		<div id="separator"></div>
 		<!-- Cobertura -->
 		<!-- solucoes main -->
 		<div class="solucoes" id="solucoes" align="center">
 			<h1>Soluções</h1>
-			<div class="container">
-			  <div class="row">
-			    <div class="col">
+			<div class="conteudosolucoes">
 			    	<div class="card text-dark bg-light mb-3" id="cards">
 					  <div class="card-header" id="cardtop"><i class="bi bi-bezier2"></i></div>
 					  <div class="card-body">
 					    <h5 class="card-title" style="font-weight: bold">Conexão 100% Fibra óptica</h5>
 					    <p class="card-text">Nossa conexão é baseada na tecnologia FTTH (Fiber to the home), onde a conexão entre o provedor e a residência é totalmente fibra óptica.</p>
 					  </div>
-					</div>
-			    </div>
-			    <div class="col">
-			     <div class="card text-dark bg-light mb-3" id="cards">
+			    	</div>
+			    <div class="card text-dark bg-light mb-3" id="cards">
 					  <div class="card-header" id="cardtop"><i class="bi bi-hdd-stack-fill"></i></div>
 					  <div class="card-body">
 					    <h5 class="card-title" style="font-weight: bold">Maior Backbone do Estado do Pará</h5>
-					    <p class="card-text">Interconecta diretamente 20 cidades do Estado com rede própria. Backbone com capacidade 40Gbps de transporte e preparada para upgrades. 
-					    </p>
+					    <p class="card-text">Interconecta diretamente 20 cidades do Estado com rede própria. Backbone com capacidade 40Gbps de transporte e preparada para upgrades.</p>
 					  </div>
-					</div>
-			    </div>
-			    <div class="col">
-			      <div class="card text-dark bg-light mb-3" id="cards">
+				</div>
+			    <div class="card text-dark bg-light mb-3" id="cards">
 					  <div class="card-header" id="cardtop"><i class="bi bi-headset"></i></div>
 					  <div class="card-body">
 					    <h5 class="card-title" style="font-weight: bold">Suporte 24/7/365</h5>
-					    <p class="card-text">Suporte ao cliente 24hrs por dia, 7 dias por semana, e 365 dias ao ano, incluindo domingos e feriados com SLA 99,2% de disponibilidade.
-					    </p>
+					    <p class="card-text">Suporte ao cliente 24hrs por dia, 7 dias por semana, e 365 dias ao ano, incluindo domingos e feriados com SLA 99,2% de disponibilidade.</p>
 					  </div>
-					</div>
-			    </div>
-			  </div>
-			  <div class="row">
-			  	<div class="col">
-			      <div class="card text-dark bg-light mb-3" id="cards">
+				</div>
+			    <div class="card text-dark bg-light mb-3" id="cards">
 					  <div class="card-header" id="cardtop"><i class="bi bi-shield-shaded"></i></div>
 					  <div class="card-body">
 					    <h5 class="card-title" style="font-weight: bold">Data Center Tier 2</h5>
-					    <p class="card-text">Maior confiabilidade, segurança e redundância, e serviços de documentação de redes ópticas, utilizando aplicativo de mapeamento próprio.
+					    <p class="card-text">Maior confiabilidade, segurança e redundância, e serviços de documentação de redes ópticas, utilizando aplicativo de mapeamento próprio.</p>
 					  </div>
-				  </div>
-			    </div>
-			    <div class="col">
-			      <div class="card text-dark bg-light mb-3" id="cards">
+				</div>
+			    <div class="card text-dark bg-light mb-3" id="cards">
 					  <div class="card-header" id="cardtop"><i class="bi bi-diagram-3-fill"></i></div>
 					  <div class="card-body">
 					    <h5 class="card-title" style="font-weight: bold">Três Rotas IP distintas</h5>
-					    <p class="card-text">Dois diferentes pontos de abordagem para Link IP, e Sistema Autônomo de Endereçamento IP (ASN), já preparado para atendimento em IPv6.
+					    <p class="card-text">Dois diferentes pontos de abordagem para Link IP, e Sistema Autônomo de Endereçamento IP (ASN), já preparado para atendimento em IPv6.</p>
 					  </div>
-				  </div>
-			    </div>
-			    <div class="col">
-			      <div class="card text-dark bg-light mb-3" id="cards">
+				</div>
+			    <div class="card text-dark bg-light mb-3" id="cards">
 					  <div class="card-header" id="cardtop"><i class="bi bi-server"></i></div>
 					  <div class="card-body">
 					    <h5 class="card-title" style="font-weight: bold">Content Delivery Network</h5>
-					    <p class="card-text">CDN com os principais conteúdos: Facebook, Google, Youtube, Netflix, Microsoft e muitos outras para possibilitar a melhor entrega de conteúdo para sua conexão.
+					    <p class="card-text">CDN com os principais conteúdos: Facebook, Google, Youtube, Netflix, Microsoft e muitos outras para possibilitar a melhor entrega de conteúdo para sua conexão.</p>
 					  </div>
-				  </div>
-			    </div>
-			  </div>
+				</div>
 			</div>
 		</div>
 		<!-- solucoes main -->
@@ -345,90 +351,60 @@
 		<div class="solucao-cliente" align="center">
 			<h1>Soluções da Área do cliente</h1>
 			<div class="cliente">
-				 <div class="container">
-					  <div class="row">
-					    <div class="col">
-					      <div class="card-body" id="cardsolution">
+				 	<div class="conteudocliente">
+					      <div class="card-body">
 						    <p style="font-size: 64px"><i class="bi bi-file-earmark-fill"></i></p>
-						    <h2 style="font-weight: bold">2ª Via de boleto</h2>
+						    <h2>2ª Via de boleto</h2>
 						  </div>
-						</div>
-					    <div class="col">
-					      <div class="card-body" id="cardsolution">
+					      <div class="card-body">
 						    <p style="font-size: 64px"><i class="bi bi-search"></i></p>
-						    <h2 style="font-weight: bold">Nº de Protocolos</h2>
+						    <h2>Nº de Protocolos</h2>
 						  </div>
-					    </div>
-					    <div class="col">
-					      <div class="card-body" id="cardsolution">
+					      <div class="card-body">
 						    <p style="font-size: 64px"><i class="bi bi-telephone-inbound-fill"></i></p>
-						    <h2 style="font-weight: bold">Solicitar contato</h2>
+						    <h2>Solicitar contato</h2>
 						  </div>
-					  </div>
-					</div>
-					 <div class="row">
-					  	<div class="col">
-					      <div class="card-body" id="cardsolution">
+					      <div class="card-body">
 						    <p style="font-size: 64px"><i class="bi bi-unlock-fill"></i></p>
-						    <h2 style="font-weight: bold">Desbloquear Conexão</h2>
+						    <h2>Desbloquear Conexão</h2>
 						  </div>
-					  	</div>
-					  	<div class="col">
-					      <div class="card-body" id="cardsolution">
+					      <div class="card-body">
 						    <p style="font-size: 64px"><i class="bi bi-arrow-up-circle-fill"></i></p>
-						    <h2 style="font-weight: bold">Retirar Redução</h2>
+						    <h2>Retirar Redução</h2>
 						  </div>
-					  	</div>
-					  	<div class="col">
-					      <div class="card-body" id="cardsolution">
+					      <div class="card-body">
 						    <p style="font-size: 64px"><i class="bi bi-credit-card-fill"></i></p>
-						    <h2 style="font-weight: bold">Registrar Cartão</h2>
+						    <h2>Registrar Cartão</h2>
 						  </div>
-					  	</div>
 					</div>
-				</div>
 			</div>
 		</div>
 		<!-- solucoes empresa -->
 		<div class="solucao-empresa" id="empresa" align="center">
 			<h1>Soluções para sua empresa</h1>
 			<div class="empresa">
-				 <div class="container">
-					  <div class="row">
-					    <div class="col">
-					      <div class="card-body" id="cardsolution">
+				 	<div class="conteudoempresa">
+					      <div class="card-body">
 						    <p style="font-size: 64px"><i class="bi bi-layer-forward"></i></p>
-						    <h2 style="font-weight: bold">Link Dedicado</h2>
+						    <h2>Link Dedicado</h2>
 						  </div>
-						</div>
-					    <div class="col">
-					      <div class="card-body" id="cardsolution">
+					      <div class="card-body">
 						    <p style="font-size: 64px"><i class="bi bi-cone-striped"></i></p>
-						    <h2 style="font-weight: bold">Intervenção Imediata</h2>
+						    <h2>Intervenção Imediata</h2>
 						  </div>
-					    </div>
-					    <div class="col" id="cardsolution">
 					      <div class="card-body">
 						    <p style="font-size: 64px"><i class="bi bi-broadcast-pin"></i></p>
-						    <h2 style="font-weight: bold">Instalação de Hotspot</h2>
+						    <h2>Instalação de Hotspot</h2>
 						  </div>
-					  </div>
-					</div>
-					 <div class="row">
-					  	<div class="col">
-					      <div class="card-body" id="cardsolution">
+					      <div class="card-body">
 						    <p style="font-size: 64px"><i class="bi bi-truck"></i></p>
-						    <h2 style="font-weight: bold">Transportes de Dados</h2>
+						    <h2>Transportes de Dados</h2>
 						  </div>
-					  	</div>
-					  	<div class="col">
-					      <div class="card-body" id="cardsolution">
+					      <div class="card-body">
 						    <p style="font-size: 64px"><i class="bi bi-terminal-fill"></i></p>
-						    <h2 style="font-weight: bold">Monitoramento 24hrs</h2>
+						    <h2>Monitoramento 24hrs</h2>
 						  </div>
-					  	</div>
 					</div>
-				</div>
 			</div>
 		</div>
 		<!-- solucoes empresa -->
@@ -436,53 +412,37 @@
 		<div class="solucao-provedor" id="provedor" align="center">
 			<h1>Soluções para seu provedor</h1>
 			<div class="provedor">
-				 <div class="container">
-					  <div class="row">
-					    <div class="col">
-					      <div class="card-body" id="cardsolution">
+				<div class="conteudoprovedor">
+					      <div class="card-body">
 						    <p style="font-size: 64px"><i class="bi bi-hand-thumbs-up-fill"></i></p>
-						    <h2 style="font-weight: bold">Terceirização</h2>
+						    <h2>Terceirização</h2>
 						  </div>
-						</div>
-					    <div class="col">
-					      <div class="card-body" id="cardsolution">
+					      <div class="card-body">
 						    <p style="font-size: 64px"><i class="bi bi-arrow-left-right"></i></p>
-						    <h2 style="font-weight: bold">Swaps</h2>
+						    <h2>Swaps</h2>
 						  </div>
-					    </div>
-					    <div class="col">
-					      <div class="card-body" id="cardsolution">
+					      <div class="card-body">
 						    <p style="font-size: 64px"><i class="bi bi-intersect"></i></p>
-						    <h2 style="font-weight: bold">PTT's</h2>
+						    <h2>PTT's</h2>
 						  </div>
-					  </div>
-					</div>
-					 <div class="row">
-					  	<div class="col">
-					      <div class="card-body" id="cardsolution">
+					      <div class="card-body">
 						    <p style="font-size: 64px"><i class="bi bi-arrows-angle-contract"></i></p>
-						    <h2 style="font-weight: bold">Fusões</h2>
+						    <h2>Fusões</h2>
 						  </div>
-					  	</div>
-					  	<div class="col">
-					      <div class="card-body" id="cardsolution">
+					      <div class="card-body">
 						    <p style="font-size: 64px"><i class="bi bi-hdd-network-fill"></i></p>
-						    <h2 style="font-weight: bold">Rotas Backup</h2>
+						    <h2>Rotas Backup</h2>
 						  </div>
-					  	</div>
-					</div>
 				</div>
 			</div>
 		</div>
 		<!-- solucoes provedor -->
 		<!-- novidades -->
-		<div class="novidades" id="novidades"align="center">
-			<h1>Últimas <strong>Novidades</strong></h1>
+		<div class="novidades" id="novidades" align="center">
+			<h2>Últimas <strong>Novidades</strong></h2>
 				<div class="container">
-				  <div class="row">
-				    <div class="col">
-				    	<!-- card noticia -->
-				     	 <div class="card mb-3" id="cardnoticia" style="max-width: 540px; max-height: 540px">
+				    <!-- card noticia -->
+				    <div class="card mb-3" id="cardnoticia" style="max-width: 540px; max-height: 540px">
 						  <div class="row g-0">
 						    <div class="col-md-4">
 						      <img src="src/slider.png" class="img-fluid rounded-start" alt="...">
@@ -495,12 +455,10 @@
 						      </div>
 						    </div>
 						  </div>
-						</div>
-						<!-- card noticia -->
-				    </div>
-				    <div class="col">
-				      <!-- card noticia -->
-				     	 <div class="card mb-3" id="cardnoticia" style="max-width: 540px; max-height: 540px">
+					</div>
+					<!-- card noticia -->
+				    <!-- card noticia -->
+				    <div class="card mb-3" id="cardnoticia" style="max-width: 540px; max-height: 540px">
 						  <div class="row g-0">
 						    <div class="col-md-4">
 						      <img src="src/slider.png" class="img-fluid rounded-start" alt="...">
@@ -513,14 +471,10 @@
 						      </div>
 						    </div>
 						  </div>
-						</div>
-						<!-- card noticia -->
-				    </div>
-				  </div>
-				  <div class="row">
-				  	<div class="col">
-				    	<!-- card noticia -->
-				     	 <div class="card mb-3" id="cardnoticia" style="max-width: 540px; max-height: 540px">
+					</div>
+					<!-- card noticia -->
+				    <!-- card noticia -->
+				    <div class="card mb-3" id="cardnoticia" style="max-width: 540px; max-height: 540px">
 						  <div class="row g-0">
 						    <div class="col-md-4">
 						      <img src="src/slider.png" class="img-fluid rounded-start" alt="...">
@@ -533,12 +487,10 @@
 						      </div>
 						    </div>
 						  </div>
-						</div>
-						<!-- card noticia -->
-				    </div>
-				    <div class="col">
-				      <!-- card noticia -->
-				     	 <div class="card mb-3" id="cardnoticia" style="max-width: 540px; max-height: 540px">
+					</div>
+					<!-- card noticia -->
+				    <!-- card noticia -->
+				    <div class="card mb-3" id="cardnoticia" style="max-width: 540px; max-height: 540px">
 						  <div class="row g-0">
 						    <div class="col-md-4">
 						      <img src="src/slider.png" class="img-fluid rounded-start" alt="...">
@@ -552,11 +504,9 @@
 						    </div>
 						  </div>
 						</div>
-						<!-- card noticia -->
-				    </div>
-				  </div>
+					<!-- card noticia -->
 				</div>
-				<h2><a href="pages/novidades.html" style="text-decoration: none; color: #130f40"><i class="bi bi-plus-lg"></i> Novidades</a></h2>
+			<p id="maisnoticia"><a href="pages/novidades.html" style="text-decoration: none; color: #130f40"><i class="bi bi-plus-lg"></i> Novidades</a></p>
 		</div>
 		<!-- novidades -->
 		<div id="separator"></div>
@@ -569,7 +519,7 @@
 			    	</div>
 			    </div>
 			    <div class="col">
-			    	<div class="itemrodape" id="itemrodape">
+			    	<div class="itemrodape" id="itemrodape" align="center">
 			      <h5 style="font-weight: bold; color: #718093">Cliente</h5>
 			      <ul style="list-style-type: none">
 			      	<li><a href="#planos" id="rodapeitem" style="width: 87%; text-decoration: none; color: white">Conheça nossos planos</a></li>
@@ -580,7 +530,7 @@
 			    </div>
 			    </div>
 			    <div class="col">
-			    <div class="itemrodape" id="itemrodape">
+			    <div class="itemrodape" id="itemrodape" align="center">
 			      <h5 style="font-weight: bold; color: #718093">Sea Telecom</h5>
 			      <ul style="list-style-type: none">
 			      	<li><a href="#empresa" id="rodapeitem" style="text-decoration: none; color: white">Conexão para sua empresa</a></li>
@@ -591,7 +541,7 @@
 			    </div>
 			    </div>
 			    <div class="col">
-			    <div class="itemrodape" id="itemrodape">
+			    <div class="itemrodape" id="itemrodape" align="center">
 			    	<h5 style="font-weight: bold; color: #718093">Contato</h5>
 			     	<ul style="list-style-type: none">
 			     	<li><a href="https://www.facebook.com/seatelecombrasil/" target="blank" style="text-decoration: none; color: white"><i class="bi bi-messenger"></i> @seatelecombrasil</a></li>
@@ -601,7 +551,7 @@
 			    </div>
 			    </div>
 			    <div class="col">
-			    	<div class="itemrodape" id="itemrodape">
+			    	<div class="itemrodape" id="itemrodape" align="center">
 			    	<h5 style="font-weight: bold; color: #718093">Redes Sociais</h5>
 			     	<ul style="list-style-type: none">
 			     	<li><a href="https://www.facebook.com/seatelecombrasil/" target="blank" style="text-decoration: none; color: white"><i class="bi bi-facebook"></i> @seatelecombrasil</a></li>

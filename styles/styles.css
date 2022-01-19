@@ -17,10 +17,11 @@ html {
 	height: 12px;
 	font-family: Montserrat;
 	font-size: 8px;
+	display: none;
 }
 .menu{
 	width: 300px;
-	height: 280px;
+	height: 140px;
 	font-family: Changa;
 	font-size: 18px;
 	margin-top: 10px;
@@ -29,6 +30,9 @@ html {
 	margin-right: auto;
 	left: 0;
 	right: 0;
+}
+.menu .container{
+	display: none;
 }
 #separator{
 	background-repeat: repeat-x;
@@ -63,7 +67,7 @@ html {
 #foguete{
 	width: 250px;
 	position: absolute;
-	top: 400px;
+	top: 275px;
 	margin-left: auto;
 	margin-right: auto;
 	left: 0;
@@ -99,15 +103,20 @@ html {
 	color: #130F40;
 	font-size: 36px;
 }
-.infomain .container{
+.infomain .conteudoplanos{
 	width: 100%;
 	margin-top: 35px;
+	overflow-x: auto;
+	display: flex;
+    flex-direction: row;
 }
 #planocontainer{
 	border-radius: 2rem;
 	padding: 0px;
-	width: 260px;
+	min-width: 260px;
 	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 #planotop{
 	background-color: #1B1464;
@@ -171,7 +180,7 @@ html {
 	font-family: Dosis;
 	background-image: linear-gradient(to bottom, #686de0 , #4834d4);
 	padding: 15px;
-	height: 1950px;
+	height: 1300px;
 	border-top-right-radius: 7.25rem;
 	border-top-left-radius: 7.25rem;
 	margin-top: 35px;
@@ -187,6 +196,7 @@ html {
 	font-weight: bold;
 }
 .cobertura .container{
+	padding: 0px;
 	margin-top: 30px;
 	font-size: 16px;
 	color: white;
@@ -196,109 +206,9 @@ html {
 	padding: 10px;
 }
 /* Cobertura cards*/
-.infra .container .row .col .card-body{
-	background: #00a8ff;
-	border-radius: 3rem;
-	box-shadow: 0px 10px #0097e6;
-	width: 200px;
-	margin-top: 40px;
-}
-.infra .container .row .col .card-body i{ 
-	font-size: 32px;
-}
-/* Cobertura cards*/
-.solucoes{
-	width: 100%;
-	font-family: Dosis;
-	height: 1870px;
-	font-size: 22px;
-	color: #4834d4;
-}
-#cardsolution{
-	width: 300px;
-}
-.solucoes h1{
-	height: 90px;
-	font-size: 62px;
-	font-weight: bold;
-	background-color: #1B1464;
-	box-shadow: 0px 10px #130f40;
-	color: white;
-	border-bottom-left-radius: 3rem;
-	border-bottom-right-radius: 3rem;
-}
-.solucao-cliente{
-	width: 100%;
-	font-family: Dosis;
-	height: 1500px;
-	font-size: 22px;
-}
-.solucao-cliente h1{
-	margin-top: 20px;
-	width: 100%;
-	height: 100px;
-	font-size: 38px;
-	font-weight: bold;
-	background-color: #4834d4;
-	box-shadow: 0px 10px #686de0;
-	color: white;
-	border-radius: 3rem;
-}
-.solucao-cliente .cliente .container .row .col .card-body{
-	margin-top: 40px;
-	background: #00d2d3;
-	border-radius: 3rem;
-	box-shadow: 0px 10px #01a3a4;
-	color: white;
-}
-.solucao-empresa{
-	width: 100%;
-	font-family: Dosis;
-	height: 1270px;
-	font-size: 22px;
-}
-.solucao-empresa h1{
-	width: 100%;
-	height: 100px;
-	font-size: 38px;
-	font-weight: bold;
-	background-color: #4834d4;
-	box-shadow: 0px 10px #686de0;
-	color: white;
-	border-radius: 3rem;
-}
-.solucao-empresa .empresa .container .row .col .card-body{
-	margin-top: 40px;
-	background: #1dd1a1;
-	border-radius: 3rem;
-	box-shadow: 0px 10px #10ac84;
-	color: white;
-}
-.solucao-provedor{
-	width: 100%;
-	font-family: Dosis;
-	height: 1230px;
-	font-size: 22px;
-}
-.solucao-provedor .provedor .container .row .col .card-body{
-	margin-top: 40px;
-	background: #9980FA;
-	border-radius: 3rem;
-	box-shadow: 0px 10px #5758BB;
-	color: white;
-}
-.solucao-provedor h1{
-	width: 100%;
-	height: 100px;
-	font-size: 38px;
-	font-weight: bold;
-	background-color: #4834d4;
-	box-shadow: 0px 10px #686de0;
-	color: white;
-	border-radius: 3rem;
-}
 #cards{
-	width: 300px;
+	min-width: 300px;
+	margin: 30px 15px 30px 15px;
 	border-radius: 3rem;
 	box-shadow: 0px 5px 10px #4834d4;
 }
@@ -316,39 +226,197 @@ html {
 	font-size: 18px;
 	color: #4834d4;
 }
+.infra .conteudoinfra{
+	width: 100%;
+	overflow-x: auto;
+	display: flex;
+    flex-direction: row;
+    color: white;
+}
+.infra .conteudoinfra .card-body{
+	background: #00a8ff;
+	border-radius: 3rem;
+	box-shadow: 0px 10px #0097e6;
+	min-width: 250px;
+	margin-top: 40px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 20px;
+}
+.infra .conteudoinfra .card-body h2{ 
+	color: white;
+}
+.infra .conteudoinfra .card-body i{ 
+	font-size: 32px;
+}
+/* Cobertura cards*/
+.solucoes{
+	width: 100%;
+	font-family: Dosis;
+	height: 450px;
+	font-size: 22px;
+	color: #4834d4;
+}
+.solucoes .conteudosolucoes{
+	width: 100%;
+	overflow-x: auto;
+	display: flex;
+    flex-direction: row;
+}
+.solucoes h1{
+	height: 90px;
+	font-size: 62px;
+	font-weight: bold;
+	background-color: #1B1464;
+	box-shadow: 0px 10px #130f40;
+	color: white;
+	border-bottom-left-radius: 3rem;
+	border-bottom-right-radius: 3rem;
+}
+.solucao-cliente{
+	width: 100%;
+	font-family: Dosis;
+	height: 450px;
+	font-size: 22px;
+}
+.solucao-cliente h1{
+	margin-top: 20px;
+	width: 100%;
+	height: 100px;
+	font-size: 38px;
+	font-weight: bold;
+	background-color: #4834d4;
+	box-shadow: 0px 10px #686de0;
+	color: white;
+	border-radius: 3rem;
+}
+.solucao-cliente .cliente .conteudocliente{
+	width: 100%;
+	overflow: auto;
+	display: flex;
+    flex-direction: row;
+}
+.solucao-cliente .cliente .conteudocliente .card-body{
+	min-width: 275px;
+	background: #00d2d3;
+	border-radius: 3rem;
+	box-shadow: 0px 10px #01a3a4;
+	color: white;
+	margin: 30px 15px 30px 15px;
+}
+.solucao-cliente .cliente .conteudocliente .card-body h2{
+	color: white;
+	font-weight: bold
+}
+.solucao-empresa{
+	width: 100%;
+	font-family: Dosis;
+	height: 450px;
+	font-size: 22px;
+}
+.solucao-empresa h1{
+	width: 100%;
+	height: 100px;
+	font-size: 38px;
+	font-weight: bold;
+	background-color: #4834d4;
+	box-shadow: 0px 10px #686de0;
+	color: white;
+	border-radius: 3rem;
+}
+.solucao-empresa .empresa .conteudoempresa{
+	width: 100%;
+	overflow: auto;
+	display: flex;
+	flex-direction: row;
+}
+.solucao-empresa .empresa .conteudoempresa .card-body{
+	min-width: 275px;
+	background: #1dd1a1;
+	border-radius: 3rem;
+	box-shadow: 0px 10px #10ac84;
+	color: white;
+	margin: 30px 15px 30px 15px;
+}
+.solucao-empresa .empresa .conteudoempresa .card-body h2{
+	color: white;
+	font-weight: bold;
+}
+.solucao-provedor{
+	width: 100%;
+	font-family: Dosis;
+	height: 400px;
+	font-size: 22px;
+}
+.solucao-provedor .provedor .conteudoprovedor {
+	width: 100%;
+	overflow: auto;
+	display: flex;
+	flex-direction: row;
+}
+.solucao-provedor .provedor .conteudoprovedor .card-body{
+	min-width: 275px;
+	background: #9980FA;
+	border-radius: 3rem;
+	box-shadow: 0px 10px #5758BB;
+	color: white;
+	margin: 30px 15px 30px 15px;
+}
+.solucao-provedor .provedor .conteudoprovedor .card-body h2{
+	color: white;
+	font-weight: bold
+}
+.solucao-provedor h1{
+	width: 100%;
+	height: 100px;
+	font-size: 38px;
+	font-weight: bold;
+	background-color: #4834d4;
+	box-shadow: 0px 10px #686de0;
+	color: white;
+	border-radius: 3rem;
+}
 .solucoes .container .row .col{
 	margin-top: 20px;
 }
 .novidades{
 	width: 100%;
 	font-family: Dosis;
-	height: 2150px;
+	height: 800px;
 }
-.novidades h1{
+.novidades h2{
 	color: #341f97;
 	font-size: 38px;
 	background-color: #bdc3c7;
 	box-shadow: 0px 8px #95a5a6;
 	border-radius: 2rem;
 	width: 90%;
-	margin-top: 40px;
 	margin-bottom: 40px;
+	padding: 5px;
 }
-.novidades h2{
+#maisnoticia{
 	font-size: 38px;
 	border-radius: 2rem;
 	width: 50%;
 	margin: 20px;
 }
+.novidades .container{
+	width: 100%;
+	overflow-x: auto;
+	display: flex;
+	flex-direction: row;
+}
 #cardnoticia{
-	width: 300px;
+	min-width: 325px;
+	margin: 30px 15px 30px 15px;
 }
 .rodape{
 	width: 100%;
-	height: 1300px;
+	height: 1200px;
 	background-color: #1B1464;
 	color: white;
 	font-family: Dosis;
+	font-size: 14px;
 }
 .rodape .container{
 	padding-top: 30px;
@@ -362,11 +430,16 @@ html {
 #itemrodape{
 	width: 200px;
 }
+#itemrodape ul{
+	padding: 0;
+}
 #final{
 	width: 90%;
 	bottom: 0px;
 	font-family: Montserrat;
+	font-size: 14px;
 }
+/* PAGINA DE NOTICIA*/
 .mainnovidade{
 	width: 100%;
 	font-family: Dosis;
@@ -382,6 +455,8 @@ html {
 	width: 70%;
 	padding: 10px;
 }
+/* PAGINA DE NOTICIA*/
+/* PAGINA DE CONTATO*/
 .cadastro{
 	width: 100%;
 	height: 2130px;
@@ -427,6 +502,7 @@ html {
 	margin-top: 5px;
 	padding: 0px;
 }
+/* PAGINA DE CONTATO*/
 }
 /* CELULAR  */
 /* CELULAR NORMAIS */
@@ -1327,6 +1403,7 @@ html {
 .infomain .container{
 	width: 100%;
 	margin-top: 35px;
+	overflow-x: auto;
 }
 #planocontainer{
 	border-radius: 2rem;
