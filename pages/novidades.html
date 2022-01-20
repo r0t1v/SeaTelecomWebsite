@@ -15,7 +15,7 @@
 	</head>
 	<body>
 	<!-- Header -->
-		<div class="navinit" align="center">
+		<div class="navinit" id="listmenu" align="center">
 				<div class="container">
 				  <div class="row">
 				    <div class="col"><a href="../index.html#planos" style="text-decoration: none; color: white">
@@ -35,18 +35,19 @@
 		<div class="menu" align="center">
 			<div class="container">
 			  <div class="row">
-			    <div class="col-sm-3"><a href="../index.html">
-			    <img src="../src/navbar/logomain.png"></a></div>
+			    <div class="col-sm-3" align="center"><a href="../index.html">
+			    <img src="../src/navbar/logomain.png"></a>
+				</div>
 			    <div class="col-sm-9" style="margin-top: 30px">
-			      <div class="row">
+			      <div class="row" align="center">
 			        <div class="col-8 col-sm-3">
-			          <a href="contato.html" style="text-decoration: none; color: #130f40"><p id="menuitem">Seja Nosso Cliente</p></a>
+			          <a href="contato.html" id="menuitem" style="text-decoration: none; color: #130f40">Seja Nosso Cliente</a>
 			        </div>
 			        <div class="col-8 col-sm-3">
 			          <a href="../index.html#solucoes" id="menuitem" style="width: 50%; text-decoration: none; color: #130f40">Soluções</a>
 			        </div>
 			        <div class="col-8 col-sm-3">
-			          <a href="novidades.html" id="menuitem" style="width: 55%; text-decoration: none; color: #130f40">Novidades</a>
+			          <a href="#noticias" id="menuitem" style="width: 55%; text-decoration: none; color: #130f40">Novidades</a>
 			        </div>
 			        <div class="col-8 col-sm-3">
 			          <a href="http://mk.seatelecom.com.br:8080/sac/login/?sys=SAC" id="menuitem" style="width: 80%;text-decoration: none; color: #130f40">Área do Cliente</a>
@@ -55,6 +56,46 @@
 			    </div>
 			  </div>
 			</div>
+			<nav class="navbar navbar-light bg-light fixed-top" id="menumobile">
+			  <div class="container-fluid" id="contentoffcanvas">
+			    <a class="navbar-brand" id="logomain" href="../index.html"><img src="../src/navbar/logomobile.png"></a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+			      <div class="offcanvas-header">
+			        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="../src/navbar/logomobilecanvas.png"></h5>
+			        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			      </div>
+			      <div class="offcanvas-body">
+			        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+			          <li class="nav-item">
+			            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+			          </li>
+			          <li class="nav-item">
+			            <a class="nav-link" href="../pages/contato.html">Seja Nosso Cliente</a>
+			          </li>
+			          <li class="nav-item dropdown">
+			            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			              Soluções
+			            </a>
+			            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+			              <li><a class="dropdown-item" href="../index.html#planos">Soluções para sua Residência</a></li>
+			              <li><a class="dropdown-item" href="../index.html#empresa">Soluções para sua Empresa</a></li>
+						  <li><a class="dropdown-item" href="../index.html#provedor">Soluções para seu Provedor</a></li>
+			            </ul>
+			          </li>
+			           <li class="nav-item">
+			            <a class="nav-link active" href="#novidades">Notícias</a>
+			          </li>
+			          <li class="nav-item">
+			            <a class="nav-link" href="http://mk.seatelecom.com.br:8080/sac/login/?sys=SAC">Área do Cliente</a>
+			          </li>
+			        </ul>
+			      </div>
+			    </div>
+			  </div>
+			</nav>
 		</div>
 	<!-- Menu/NavBar -->
 	<!-- hr -->
@@ -99,7 +140,7 @@
 		</div>
 		<div id="separator"></div>
 		<footer class="rodape">
-			<div class="container">
+			<div class="container" align="center">
 			  <div class="row">
 			    <div class="col" style="padding-top: 40px">
 			    	<div class="itemrodape" id="itemrodape" align="center">
@@ -153,7 +194,7 @@
 			  	<center>
 			  	<a href="mailto:sac@seatelecom.com.br" style="font-size: 22px;text-decoration: none; color: white"><i class="bi bi-envelope-open-fill"></i> <strong>sac@seatelecom.com.br</strong></a>
 				<hr id="final">
-				<p id="final" align="center"><strong>Copyright © SEA Telecom 2017 / 2021 - Todos os direitos reservados.</strong><br>SEA Telecom LTDA - 25.450.139/0001-68<br><i class="bi bi-pin-map-fill"></i> Rua Coronel Leal, 969-A, Centro, Castanhal - PA, CEP 68743-070<br>Desenvolvido por <a href="https://github.com/r0t1v" target="blank" style="text-decoration: none; color: #0652DD">Vitor Gabriel</a></p>
+				<p id="final" align="center"><strong>Copyright © SEA Telecom 2017 / 2022 - Todos os direitos reservados.</strong><br>SEA Telecom LTDA - 25.450.139/0001-68<br><i class="bi bi-pin-map-fill"></i> Rua Coronel Leal, 969-A, Centro, Castanhal - PA, CEP 68743-070<br>Desenvolvido por <a href="https://github.com/r0t1v" target="blank" style="text-decoration: none; color: #0652DD">Vitor Gabriel</a></p>
 				</center>
 			</div>
 			</div>

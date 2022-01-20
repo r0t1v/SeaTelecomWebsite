@@ -56,44 +56,42 @@
 			    </div>
 			  </div>
 			</div>
-			<nav class="navbar navbar-light bg-light fixed-top">
-			  <div class="container-fluid">
-			    <a class="navbar-brand" href="index.html">
-			    <img src="src/navbar/logomain.png"></a>
+			<nav class="navbar navbar-light bg-light fixed-top" id="menumobile">
+			  <div class="container-fluid" id="contentoffcanvas">
+			    <a class="navbar-brand" id="logomain" href="index.html"><img src="src/navbar/logomobile.png"></a>
 			    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
 			      <span class="navbar-toggler-icon"></span>
 			    </button>
 			    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
 			      <div class="offcanvas-header">
-			        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+			        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="src/navbar/logomobilecanvas.png"></h5>
 			        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 			      </div>
 			      <div class="offcanvas-body">
 			        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
 			          <li class="nav-item">
-			            <a class="nav-link active" aria-current="page" href="#">Home</a>
+			            <a class="nav-link active" aria-current="page" href="#menumobile">Inicio</a>
 			          </li>
 			          <li class="nav-item">
-			            <a class="nav-link" href="#">Link</a>
+			            <a class="nav-link" href="pages/contato.html">Seja Nosso Cliente</a>
 			          </li>
 			          <li class="nav-item dropdown">
 			            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-			              Dropdown
+			              Soluções
 			            </a>
 			            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-			              <li><a class="dropdown-item" href="#">Action</a></li>
-			              <li><a class="dropdown-item" href="#">Another action</a></li>
-			              <li>
-			                <hr class="dropdown-divider">
-			              </li>
-			              <li><a class="dropdown-item" href="#">Something else here</a></li>
+			              <li><a class="dropdown-item" href="#planos">Soluções para sua Residência</a></li>
+			              <li><a class="dropdown-item" href="#empresa">Soluções para sua Empresa</a></li>
+						  <li><a class="dropdown-item" href="#provedor">Soluções para seu Provedor</a></li>
 			            </ul>
 			          </li>
+			           <li class="nav-item">
+			            <a class="nav-link" href="#novidades">Notícias</a>
+			          </li>
+			          <li class="nav-item">
+			            <a class="nav-link" href="http://mk.seatelecom.com.br:8080/sac/login/?sys=SAC">Área do Cliente</a>
+			          </li>
 			        </ul>
-			        <form class="d-flex">
-			          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-			          <button class="btn btn-outline-success" type="submit">Search</button>
-			        </form>
 			      </div>
 			    </div>
 			  </div>
@@ -132,12 +130,12 @@
 			<h1 id="planos">Planos <strong>para você</strong></h1>
 			<div class="conteudoplanos">
 			    	<div class="card text-center" id="planocontainer">
-					  <div class="card-header" id="planotop"><i class="bi bi-reception-4"></i> Plano <strong>100 MEGA</strong> <span class="badge rounded-pill bg-secondary" style="box-shadow: 0px 2px white"><i class="bi bi-house-fill"></i> Básico</span> <span class="badge rounded-pill bg-danger" style="box-shadow: 0px 2px white"><i class="bi bi-wifi"></i> 2.4G</span></div>
+					  <div class="card-header" id="planotop"><i class="bi bi-reception-4"></i> Plano <strong>250 MEGAS</strong> <span class="badge rounded-pill bg-secondary" style="box-shadow: 0px 2px white"><i class="bi bi-house-fill"></i> Básico</span> <span class="badge rounded-pill bg-primary" style="box-shadow: 0px 2px white"><i class="bi bi-wifi"></i> 2.4G + 5G</span></div>
 					  	 <div id="separator"></div>
 						 <div class="card-body" id="planobody" align="left">
 						    <p class="card-text"><ul style="list-style-type: none">
-						    <li><i class="bi bi-download"></i> Download:<strong> 100Mb/s</strong></li>
-						    <li><i class="bi bi-upload"></i> Upload:<strong> 100Mb/s</strong></li>
+						    <li><i class="bi bi-download"></i> Download:<strong> 250Mb/s</strong></li>
+						    <li><i class="bi bi-upload"></i> Upload:<strong> 250Mb/s</strong></li>
 						    <li><i class="bi bi-unlock-fill"></i> Franquia:<strong> Ilimitada</strong></li>
 						    <li><i class="bi bi-phone-vibrate-fill"></i> Roteador:<strong> Em comodato</strong></li>
 						    <li><i class="bi bi-tools"></i> Instalação:<strong> R$ 89,99</strong></li>
@@ -156,12 +154,12 @@
 			  			</div>
 			    	</div>
 			      <div class="card text-center" id="planocontainer">
-					  <div class="card-header" id="planotopgold"><i class="bi bi-reception-4"></i> Plano <strong>200 MEGA</strong> <span class="badge rounded-pill bg-warning" style="box-shadow: 0px 2px white"><i class="bi bi-star-fill"></i> Popular</span> <span class="badge rounded-pill bg-primary" style="box-shadow: 0px 2px white"><i class="bi bi-wifi"></i> 2.4G + 5G</span></div>
+					  <div class="card-header" id="planotopgold"><i class="bi bi-reception-4"></i> Plano <strong>350 MEGAS</strong> <span class="badge rounded-pill bg-warning" style="box-shadow: 0px 2px white"><i class="bi bi-star-fill"></i> Popular</span> <span class="badge rounded-pill bg-primary" style="box-shadow: 0px 2px white"><i class="bi bi-wifi"></i> 2.4G + 5G</span></div>
 					  <div id="separator"></div>
 						 <div class="card-body" id="planobody" align="left">
 						    <p class="card-text"><ul style="list-style-type: none">
-						    <li><i class="bi bi-download"></i> Download:<strong> 200Mb/s</strong></li>
-						    <li><i class="bi bi-upload"></i> Upload:<strong> 200Mb/s</strong></li>
+						    <li><i class="bi bi-download"></i> Download:<strong> 350Mb/s</strong></li>
+						    <li><i class="bi bi-upload"></i> Upload:<strong> 350Mb/s</strong></li>
 						    <li><i class="bi bi-unlock-fill"></i> Franquia:<strong> Ilimitada</strong></li>
 						    <li><i class="bi bi-phone-vibrate-fill"></i> Roteador:<strong> Em comodato</strong></li>
 						    <li><i class="bi bi-tools"></i> Instalação:<strong> R$ 89,99</strong></li>
@@ -180,12 +178,12 @@
 			  			</div>
 			    </div>
 			      <div class="card text-center" id="planocontainer">
-					  <div class="card-header" id="planotop"><i class="bi bi-reception-4"></i> Plano <strong>300 MEGA</strong> <span class="badge rounded-pill bg-success" style="box-shadow: 0px 2px white"><i class="bi bi-lightning-fill"></i> Veloz</span> <span class="badge rounded-pill bg-primary" style="box-shadow: 0px 2px white"><i class="bi bi-wifi"></i> 2.4G + 5G</span></div>
+					  <div class="card-header" id="planotop"><i class="bi bi-reception-4"></i> Plano <strong>450 MEGAS</strong> <span class="badge rounded-pill bg-success" style="box-shadow: 0px 2px white"><i class="bi bi-lightning-fill"></i> Veloz</span> <span class="badge rounded-pill bg-primary" style="box-shadow: 0px 2px white"><i class="bi bi-wifi"></i> 2.4G + 5G</span></div>
 					  <div id="separator"></div>
 						 <div class="card-body" id="planobody" align="left">
 						    <p class="card-text"><ul style="list-style-type: none">
-						    <li><i class="bi bi-download"></i> Download:<strong> 300Mb/s</strong></li>
-						    <li><i class="bi bi-upload"></i> Upload:<strong> 300Mb/s</strong></li>
+						    <li><i class="bi bi-download"></i> Download:<strong> 450Mb/s</strong></li>
+						    <li><i class="bi bi-upload"></i> Upload:<strong> 450Mb/s</strong></li>
 						    <li><i class="bi bi-unlock-fill"></i> Franquia:<strong> Ilimitada</strong></li>
 						    <li><i class="bi bi-phone-vibrate-fill"></i> Roteador:<strong> Em comodato</strong></li>
 						    <li><i class="bi bi-tools"></i> Instalação:<strong> R$ 89,99</strong></li>
@@ -204,12 +202,12 @@
 			  			</div>
 			    </div>
 			      <div class="card text-center" id="planocontainer">
-					  <div class="card-header" id="planotop"><i class="bi bi-reception-4"></i> Plano <strong>500 MEGA</strong> <span class="badge rounded-pill bg-dark" style="box-shadow: 0px 2px white"><i class="bi bi-gem"></i> Máximo</span> <span class="badge rounded-pill bg-primary" style="box-shadow: 0px 2px white"><i class="bi bi-wifi"></i> 2.4G + 5G</span></div>
+					  <div class="card-header" id="planotop"><i class="bi bi-reception-4"></i> Plano <strong>600 MEGAS</strong> <span class="badge rounded-pill bg-dark" style="box-shadow: 0px 2px white"><i class="bi bi-gem"></i> Máximo</span> <span class="badge rounded-pill bg-primary" style="box-shadow: 0px 2px white"><i class="bi bi-wifi"></i> 2.4G + 5G</span></div>
 					  <div id="separator"></div>
 						 <div class="card-body" id="planobody" align="left">
 						    <p class="card-text"><ul style="list-style-type: none">
-						    <li><i class="bi bi-download"></i> Download:<strong> 500Mb/s</strong></li>
-						    <li><i class="bi bi-upload"></i> Upload:<strong> 500Mb/s</strong></li>
+						    <li><i class="bi bi-download"></i> Download:<strong> 600Mb/s</strong></li>
+						    <li><i class="bi bi-upload"></i> Upload:<strong> 600Mb/s</strong></li>
 						    <li><i class="bi bi-unlock-fill"></i> Franquia:<strong> Ilimitada</strong></li>
 						    <li><i class="bi bi-phone-vibrate-fill"></i> Roteador:<strong> Em comodato</strong></li>
 						    <li><i class="bi bi-tools"></i> Instalação:<strong> R$ 89,99</strong></li>
@@ -229,6 +227,7 @@
 			</div>
 		</div>
 		<h2>Nossos planos são totalmente<strong> sem fidelidade!</strong></h2>
+	</div>
 		<!-- infos -->
 		<!-- Cobertura -->
 		<div class="cobertura" align="center">
@@ -511,7 +510,7 @@
 		<!-- novidades -->
 		<div id="separator"></div>
 		<footer class="rodape">
-			<div class="container">
+			<div class="container" align="center">
 			  <div class="row">
 			    <div class="col" style="padding-top: 40px">
 			    	<div class="itemrodape" id="itemrodape" align="center">
@@ -565,7 +564,7 @@
 			  	<center>
 			  	<a href="mailto:sac@seatelecom.com.br" style="font-size: 22px;text-decoration: none; color: white"><i class="bi bi-envelope-open-fill"></i> <strong>sac@seatelecom.com.br</strong></a>
 				<hr id="final">
-				<p id="final" align="center"><strong>Copyright © SEA Telecom 2017 / 2021 - Todos os direitos reservados.</strong><br>SEA Telecom LTDA - 25.450.139/0001-68<br><i class="bi bi-pin-map-fill"></i> Rua Coronel Leal, 969-A, Centro, Castanhal - PA, CEP 68743-070<br>Desenvolvido por <a href="https://github.com/r0t1v" target="blank" style="text-decoration: none; color: #0652DD">Vitor Gabriel</a></p>
+				<p id="final" align="center"><strong>Copyright © SEA Telecom 2017 / 2022 - Todos os direitos reservados.</strong><br>SEA Telecom LTDA - 25.450.139/0001-68<br><i class="bi bi-pin-map-fill"></i> Rua Coronel Leal, 969-A, Centro, Castanhal - PA, CEP 68743-070<br>Desenvolvido por <a href="https://github.com/r0t1v" target="blank" style="text-decoration: none; color: #0652DD">Vitor Gabriel</a></p>
 				</center>
 			</div>
 			</div>
