@@ -62,23 +62,20 @@
 /* Animação menu*/
 /*ESTILIZAÇÃO DA BARRA DE ROLAGEM*/
 /*PARA OS OUTROS NAVEGADORES NÃO TODOS*/
-body::-webkit-scrollbar {
+*::-webkit-scrollbar {
   width: 12px;
 }
-body::-webkit-scrollbar-track {
-  background: transparent;
-  display: none;
+*::-webkit-scrollbar-track {
+    display: none;
 }
-
-body::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
   background-color: #1B1464;    
   border-radius: 20px;
-  border: 3px solid white; 
 }
 /*PARA O FIREFOX*/
-body {
+* {
   scrollbar-width: thin;
-  scrollbar-color: #1B1464 transparent;
+  scrollbar-color: #1B1464 white;
 }
 /*ESTILIZAÇÃO DA BARRA DE ROLAGEM*/
 }
